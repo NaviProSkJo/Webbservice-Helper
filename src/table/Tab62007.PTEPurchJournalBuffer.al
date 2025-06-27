@@ -52,57 +52,57 @@ table 62007 "PTE Purch Journal Buffer"
         }
         field(10; Description; Text[100])
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Description';
         }
         field(11; DepartmentCode; Code[20])
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Department Code';
         }
         field(12; ProjectCode; Code[20])
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Project Code';
         }
         field(13; CurrencyCode; Code[10])
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Currency Code';
         }
         field(14; Amount; decimal)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Amount';
         }
         field(15; "Amount (LCY)"; Decimal)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Amount (LCY)';
         }
         field(16; AppliesToDocNo; Code[20])
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Applies to Doc. No.';
         }
         field(17; BankGiro; code[20])
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Bank Giro';
         }
         field(18; Plusgiro; code[20])
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Plus Giro';
         }
         field(19; "Bank Account No."; code[20])
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Bank Account No.';
         }
         field(20; "Reason Code"; code[20])
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Reason Code';
         }
         field(21; VatBusPostingGroup; code[20])
@@ -122,37 +122,37 @@ table 62007 "PTE Purch Journal Buffer"
         }
         field(30; ProjectDimensionMissing; boolean)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Project Dimension is missing';
         }
         field(31; DepartmentDimensionMissing; boolean)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Department Dimension is missing';
         }
         field(32; "AccountNoIsMissing"; boolean)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Account No. is missing';
         }
         field(33; "VendorIsMissing"; boolean)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Vendor is missing';
         }
         field(34; "VATProdPostingGrpIsMissing"; boolean)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Customer is missing';
         }
         field(35; "VATBusPostingGrpIsMissing"; boolean)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Customer is missing';
         }
         field(36; "LineNoIsOccupied"; boolean)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Line No Is Occupied in Journal';
         }
         field(37; DueDate; Date)

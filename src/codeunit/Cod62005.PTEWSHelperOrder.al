@@ -406,5 +406,5 @@ codeunit 62005 "PTE WSHelper Order"
     var
         OrderStatusErr: Label '%1 unsupported', Comment = '%1 = fieldname';
         OrderCancelErr: Label 'Canceled order %1 could not be deleted', Comment = '%1 = ordernumber';
-        SerialNoMissingErr: Label 'Serialnumbers are missing for order %1 %2, line %3.', Comment = '%1 = Order No, %2 = Line No.';
+        SerialNoMissingErr: Label 'Serialnumbers are missing for order %1 %2, line %3.', Comment = '%1 = Order No; %2 = Line No; %3 = Line Id';
 }

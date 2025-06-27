@@ -4,19 +4,19 @@ pageextension 62000 "PTE WSH Customer Card" extends "Customer Card"
     {
         addafter(Name)
         {
-            group("WSH Opter")
+            group("PTE WSH Opter")
             {
-                field("Price Group"; Rec."Opter Customer")
+                field("PTE Price Group"; Rec."PTE Opter Customer")
                 {
                     ApplicationArea = All;
                     Editable = true;
                 }
-                field("Opter ID"; rec."Opter ID")
+                field("PTE Opter ID"; rec."PTE Opter ID")
                 {
                     ApplicationArea = All;
                     Editable = true;
                 }
-                field("Opter Credit Limit"; rec."Opter Credit Limit")
+                field("PTE Opter Credit Limit"; rec."PTE Opter Credit Limit")
                 {
                     ApplicationArea = All;
                     Editable = false;

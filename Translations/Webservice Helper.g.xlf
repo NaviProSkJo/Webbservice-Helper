@@ -668,10 +668,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 964003368 - NamedType 2101097927" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 964003368 - NamedType 2587885673" size-unit="char" translate="yes" xml:space="preserve">
           <source>Want to create Job queue entries for sending data to Opter?</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - NamedType CreateJobLabel</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - NamedType CreateJobLabelLbl</note>
         </trans-unit>
         <trans-unit id="Table 964003368 - NamedType 4035563047" size-unit="char" translate="yes" xml:space="preserve">
           <source>Job queue entries could not be created due to the following error.\\%1</source>
@@ -815,7 +815,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1528961431 - NamedType 3029814756" size-unit="char" translate="yes" xml:space="preserve">
           <source>Jobb failed with error %1</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Error message returned from WSHelperDistMgt.GetLastErrorMsg()</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTE WSHelper Dist Product Job - NamedType JobbErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1401797419 - NamedType 4170455788" size-unit="char" translate="yes" xml:space="preserve">
@@ -845,53 +845,53 @@
         </trans-unit>
         <trans-unit id="Codeunit 870573599 - NamedType 470408676" size-unit="char" translate="yes" xml:space="preserve">
           <source>Serialnumbers are missing for order %1 %2, line %3.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Order No, %2 = Line No.</note>
+          <note from="Developer" annotates="general" priority="2">%1 = Order No; %2 = Line No; %3 = Line Id</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTE WSHelper Order - NamedType SerialNoMissingErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3481499766 - NamedType 3029814756" size-unit="char" translate="yes" xml:space="preserve">
           <source>Jobb failed with error %1</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Error message returned from WSHelperMgt.GetLastErrorMsg()</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTE WSHelper Order Job - NamedType JobbErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2624264441 - Method 2439741307 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2624264441 - Method 2439741307 - NamedType 1327832897" size-unit="char" translate="yes" xml:space="preserve">
           <source>TotalLines    #1##########\</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportPurchJournal_CSV - NamedType Text000</note>
+          <note from="Developer" annotates="general" priority="2">%1 = Total number of lines to process</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportPurchJournal_CSV - NamedType Text000Lbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2624264441 - Method 2439741307 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2624264441 - Method 2439741307 - NamedType 1196336482" size-unit="char" translate="yes" xml:space="preserve">
           <source>Processed Lines    #2##########\</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportPurchJournal_CSV - NamedType Text001</note>
+          <note from="Developer" annotates="general" priority="2">%2 = Total number of lines processed</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportPurchJournal_CSV - NamedType Text001Lbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2624264441 - Method 2507025962 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2624264441 - Method 2507025962 - NamedType 1327832897" size-unit="char" translate="yes" xml:space="preserve">
           <source>TotalLines    #1##########\</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportPurchJournal_XML - NamedType Text000</note>
+          <note from="Developer" annotates="general" priority="2">%1 = Total number of lines to process</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportPurchJournal_XML - NamedType Text000Lbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2624264441 - Method 2507025962 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2624264441 - Method 2507025962 - NamedType 1196336482" size-unit="char" translate="yes" xml:space="preserve">
           <source>Processed Lines    #2##########\</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportPurchJournal_XML - NamedType Text001</note>
+          <note from="Developer" annotates="general" priority="2">%2 = Total number of lines processed</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportPurchJournal_XML - NamedType Text001Lbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2624264441 - Method 2383864391 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2624264441 - Method 2383864391 - NamedType 1327832897" size-unit="char" translate="yes" xml:space="preserve">
           <source>TotalLines    #1##########\</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportSalesJournal_CSV - NamedType Text000</note>
+          <note from="Developer" annotates="general" priority="2">%1 = Total number of lines to process</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportSalesJournal_CSV - NamedType Text000Lbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2624264441 - Method 2383864391 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2624264441 - Method 2383864391 - NamedType 1196336482" size-unit="char" translate="yes" xml:space="preserve">
           <source>Processed Lines    #2##########\</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportSalesJournal_CSV - NamedType Text001</note>
+          <note from="Developer" annotates="general" priority="2">%2 = Total number of lines processed</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportSalesJournal_CSV - NamedType Text001Lbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2624264441 - Method 2885119774 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2624264441 - Method 2885119774 - NamedType 1327832897" size-unit="char" translate="yes" xml:space="preserve">
           <source>TotalLines    #1##########\</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportSalesJournal_XML - NamedType Text000</note>
+          <note from="Developer" annotates="general" priority="2">%1 = Total number of lines to process</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportSalesJournal_XML - NamedType Text000Lbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2624264441 - Method 2885119774 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2624264441 - Method 2885119774 - NamedType 1196336482" size-unit="char" translate="yes" xml:space="preserve">
           <source>Processed Lines    #2##########\</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportSalesJournal_XML - NamedType Text001</note>
+          <note from="Developer" annotates="general" priority="2">%2 = Total number of lines processed</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportSalesJournal_XML - NamedType Text001Lbl</note>
         </trans-unit>
         <trans-unit id="Page 3339356313 - Property 3446740159" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dimension</source>
@@ -1760,7 +1760,7 @@
         </trans-unit>
         <trans-unit id="Page 964003368 - NamedType 3035575630" size-unit="char" translate="yes" xml:space="preserve">
           <source>The %1 is not enabled. Are you sure you want to exit?</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 is the record E </note>
           <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - NamedType EnableServiceQst</note>
         </trans-unit>
         <trans-unit id="Page 964003368 - NamedType 3838141333" size-unit="char" translate="yes" xml:space="preserve">
@@ -1893,45 +1893,45 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">XmlPort PTE WSHelper Sales Order List - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3350123820 - Action 1554108239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3580867622">
+        <trans-unit id="PageExtension 3350123820 - Action 270605752 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3580867622">
           <source>Import Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE Purchase Jnrl - Action ImportedLines Opter - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE Purchase Jnrl - Action PTE ImportedLines Opter - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3350123820 - Action 2322234520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3580867622">
+        <trans-unit id="PageExtension 3350123820 - Action 2548342367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3580867622">
           <source>Import XML</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE Purchase Jnrl - Action ImportLines Opter - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE Purchase Jnrl - Action PTE ImportLines Opter - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3012614852 - Action 1554108239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1727838235">
+        <trans-unit id="PageExtension 3012614852 - Action 1692133751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1727838235">
           <source>Import Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE Sales Journal - Action ImportedLines Opter - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE Sales Journal - Action PTE ImportedLines Opter () - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3012614852 - Action 2322234520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1727838235">
+        <trans-unit id="PageExtension 3012614852 - Action 2548342367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1727838235">
           <source>Import XML</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE Sales Journal - Action ImportLines Opter - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE Sales Journal - Action PTE ImportLines Opter - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2184389523 - Field 2938070336 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+        <trans-unit id="TableExtension 2184389523 - Field 172404319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Opter Credit Limit</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PTE WSH Customer - Field Opter Credit Limit - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PTE WSH Customer - Field PTE Opter Credit Limit - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2184389523 - Field 4091443316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+        <trans-unit id="TableExtension 2184389523 - Field 3786880243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Opter Customer</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PTE WSH Customer - Field Opter Customer - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PTE WSH Customer - Field PTE Opter Customer - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2184389523 - Field 3486280699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+        <trans-unit id="TableExtension 2184389523 - Field 127367260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Opter ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PTE WSH Customer - Field Opter ID - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PTE WSH Customer - Field PTE Opter ID - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 810529198 - Field 3486280699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3197070065">
+        <trans-unit id="TableExtension 810529198 - Field 127367260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3197070065">
           <source>Opter ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PTE WSH Payment Terms - Field Opter ID - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PTE WSH Payment Terms - Field PTE Opter ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3265333215 - EnumValue 2703452831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bortagen</source>

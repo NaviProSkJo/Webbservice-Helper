@@ -33,5 +33,6 @@ codeunit 62007 "PTE WSHelper Order Job"
     end;
 
     var
-        JobbErr: Label 'Jobb failed with error %1';
+        // %1 = Error message returned from WSHelperMgt.GetLastErrorMsg()
+        JobbErr: Label 'Jobb failed with error %1', Comment = '%1 = Error message returned from WSHelperMgt.GetLastErrorMsg()';
 }

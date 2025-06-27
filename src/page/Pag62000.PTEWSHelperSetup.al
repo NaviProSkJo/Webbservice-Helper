@@ -334,17 +334,17 @@ page 62000 "PTE WSHelper Setup"
                     trigger OnAction()
                     var
                         Customer: Record Customer;
-                        WSHelperMgt: Codeunit "PTE WSHelper Mgt";
-                        LastRowVersion: BigInteger;
                         CustomerExport: record "PTE WSH Customer Export";
                         CustomerExport2: record "PTE WSH Customer Export";
                         Customer2: Record Customer;
+                        WSHelperMgt: Codeunit "PTE WSHelper Mgt";
+                        LastRowVersion: BigInteger;
                     begin
                         //10.0 or greater
                         //LastRowVersion := LastUsedRowVersion();
                         //Customer.SetRange(SystemRowVersion, Rec."SyncedRowVersion Cust. WS", LastRowVersion);
                         CustomerExport.Setrange("Export OK", False);
-                        IF CustomerExport.FindSet then
+                        IF CustomerExport.FindSet() then
                             repeat
                                 IF CustomerExport."Export status" <> CustomerExport."Export status"::Deleted then
                                     Customer2.get(CustomerExport."Customer No.")
@@ -353,9 +353,9 @@ page 62000 "PTE WSHelper Setup"
                                         error('Cant delete a post that is missing its Opter ID');
                                 end;
                                 if not WSHelperMgt.SendCustomersWS_json(Customer2, CustomerExport) then;
-                                CustomerExport.modify;
+                                CustomerExport.modify();
 
-                            until CustomerExport.next = 0;
+                            until CustomerExport.next() = 0;
 
                         CurrPage.Update(true);
 
@@ -371,17 +371,17 @@ page 62000 "PTE WSHelper Setup"
                     trigger OnAction()
                     var
                         Customer: Record Customer;
-                        WSHelperMgt: Codeunit "PTE WSHelper Mgt";
-                        LastRowVersion: BigInteger;
                         CustomerExport: record "PTE WSH Customer Export";
                         CustomerExport2: record "PTE WSH Customer Export";
                         Customer2: Record Customer;
+                        WSHelperMgt: Codeunit "PTE WSHelper Mgt";
+                        LastRowVersion: BigInteger;
                     begin
                         //10.0 or greater
                         //LastRowVersion := LastUsedRowVersion();
                         //Customer.SetRange(SystemRowVersion, Rec."SyncedRowVersion Cust. WS", LastRowVersion);
                         CustomerExport.Setrange("Export OK", False);
-                        IF CustomerExport.FindSet then
+                        IF CustomerExport.FindSet() then
                             repeat
                                 IF CustomerExport."Export status" <> CustomerExport."Export status"::Deleted then
                                     Customer2.get(CustomerExport."Customer No.")
@@ -390,9 +390,9 @@ page 62000 "PTE WSHelper Setup"
                                         error('Cant delete a post that is missing its Opter ID');
                                 end;
                                 if not WSHelperMgt.SendCustomersWS_xml(Customer2, CustomerExport) then;
-                                CustomerExport.modify;
+                                CustomerExport.modify();
 
-                            until CustomerExport.next = 0;
+                            until CustomerExport.next() = 0;
 
                         CurrPage.Update(true);
 
@@ -552,7 +552,7 @@ page 62000 "PTE WSHelper Setup"
         EditableByNotEnabled: Boolean;
         EnabledWarningTok: Label 'You must disable the service before you can make changes.';
         DisableEnableQst: Label 'Do you want to disable the service?';
-        EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?';
+        EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?', Comment = '%1 is the record E ';
         EncryptionIsNotActivatedQst: Label 'Data encryption is not activated. It is recommended that you encrypt data. \Do you want to open the Data Encryption Management window?';
         EditableBySyncEnabled: Boolean;
         CheckedEncryption: Boolean;

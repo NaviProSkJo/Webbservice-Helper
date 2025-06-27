@@ -59,13 +59,13 @@ codeunit 62004 "PTE WSHelper Mgt"
     internal procedure GetPurchOrderList(var OrderList: Record "PTE WSHelper Purch. Order Hdr" temporary) Result: Boolean
     var
         Setup: Record "PTE WSHelper Setup";
+        TempBlob: Codeunit "Temp Blob";
+        NetOrderList: XmlPort "PTE WSHelper Purch.Order List";
         Client: HttpClient;
         RequestHeaders: HttpHeaders;
         Request: HttpRequestMessage;
         Response: HttpResponseMessage;
-        TempBlob: Codeunit "Temp Blob";
         InStr: InStream;
-        NetOrderList: XmlPort "PTE WSHelper Purch.Order List";
         Success: Boolean;
         Test: Text;
     begin
@@ -77,10 +77,11 @@ codeunit 62004 "PTE WSHelper Mgt"
         RequestHeaders.Add('Accept-Language', 'en-US');
         RequestHeaders.Add('Authorization', Setup.GetWSHelperAuthentication());
         Success := Client.Send(Request, Response);
-        if Success then
+        if Success = true then
             if not Response.IsSuccessStatusCode() then
                 Success := false;
         if not Success then begin
+            ;
             LastErrorMsg := Response.ReasonPhrase();
             exit(false);
         end;
@@ -167,7 +168,7 @@ codeunit 62004 "PTE WSHelper Mgt"
         POrderHeader.Id := OrderId;
         POrderHeader.Insert();
 
-        if TempXMLBuffer.findset then
+        if TempXMLBuffer.findset() then
             repeat
                 case TempXMLBuffer.Path of
                     '/PurchaseOrder/Header/Id':
@@ -219,7 +220,7 @@ codeunit 62004 "PTE WSHelper Mgt"
                     '/PurchaseOrder/Header/Delivery/Address/Country':
                         POrderHeader."Ship-to Country" := GetTextValue(TempXMLBuffer, '/PurchaseOrder/Header/Delivery/Address/Country', MaxStrLen(POrderHeader."Ship-to Country"));
                 end;
-            Until TempXMLBuffer.next = 0;
+            Until TempXMLBuffer.next() = 0;
         POrderHeader.Modify();
         exit(true);
 
@@ -232,13 +233,13 @@ codeunit 62004 "PTE WSHelper Mgt"
                                              OrderList: Record "PTE WSHelper Order Header" temporary) Result: Boolean
     var
         Setup: Record "PTE WSHelper Setup";
+        TempBlob: Codeunit "Temp Blob";
+        NetOrderList: XmlPort "PTE WSHelper Sales Order List";
         Client: HttpClient;
         RequestHeaders: HttpHeaders;
         Request: HttpRequestMessage;
         Response: HttpResponseMessage;
-        TempBlob: Codeunit "Temp Blob";
         InStr: InStream;
-        NetOrderList: XmlPort "PTE WSHelper Sales Order List";
         Success: Boolean;
         Test: Text;
     begin
@@ -277,6 +278,7 @@ codeunit 62004 "PTE WSHelper Mgt"
     var
         Setup: Record "PTE WSHelper Setup";
         TempXMLBuffer: Record "XML Buffer" temporary;
+        SOrderHeader2: Record "PTE WSHelper Order Header";
         TempBlob: Codeunit "Temp Blob";
         TypeHelper: Codeunit "Type Helper";
         Client: HttpClient;
@@ -289,7 +291,6 @@ codeunit 62004 "PTE WSHelper Mgt"
         Success: Boolean;
         XMLData: Text;
         NextSerialLineNo: Integer;
-        SOrderHeader2: Record "PTE WSHelper Order Header";
         SorderCreated: Boolean;
     begin
         Setup.Get();
@@ -334,7 +335,7 @@ codeunit 62004 "PTE WSHelper Mgt"
 
         //SOrderHeader.Id := OrderId;
         //SOrderHeader.Insert();
-        if TempXMLBuffer.findset then
+        if TempXMLBuffer.findset() then
             repeat
                 case TempXMLBuffer.Path of
                     '/Order/@Id':
@@ -571,14 +572,14 @@ codeunit 62004 "PTE WSHelper Mgt"
                     '/Order/OrderHeader/OrderTotal/RentInclusiveVATDisplay':
                         SOrderHeader."Order Rent Incl. VAT Displ." := ValueAsDecimal(TempXMLBuffer.Value);
                 end;
-            Until TempXMLBuffer.next = 0;
+            Until TempXMLBuffer.next() = 0;
         SOrderHeader2.setrange(id, OrderId);
-        if SOrderHeader2.FindSet then begin
+        if SOrderHeader2.IsEmpty then begin
             SorderCreated := false;
         end
         else begin
             SOrderHeader.Id := OrderId;
-            SOrderHeader.INSERT;
+            SOrderHeader.INSERT();
             SorderCreated := true;
         end;
 
@@ -834,13 +835,13 @@ codeunit 62004 "PTE WSHelper Mgt"
     internal procedure SendCustomersWS_json(var Customer: Record Customer; var "PTE WHS customer Export": Record "PTE WSH Customer Export") Result: Boolean
     var
         Setup: Record "PTE WSHelper Setup";
+        TempBlob: Codeunit "Temp Blob";
         Client: HttpClient;
         RequestHeaders: HttpHeaders;
         Request: HttpRequestMessage;
         ContentHeaders: HttpHeaders;
         Content: HttpContent;
         Response: HttpResponseMessage;
-        TempBlob: Codeunit "Temp Blob";
         InStr: InStream;
         Success: Boolean;
         Test: Text;
@@ -888,22 +889,22 @@ codeunit 62004 "PTE WSHelper Mgt"
         ContentHeaders.Add('Content-Type', 'application/json;charset=UTF-8');
         if "PTE WHS customer Export"."Export status" = "PTE WHS customer Export"."Export status"::New then begin
             Request.Method('POST');
-            Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblWS);
+            Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblWSLbl);
         end;
         if "PTE WHS customer Export"."Export status" = "PTE WHS customer Export"."Export status"::Modified then begin
             Request.Method('PUT');
-            Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblWS + '\' + FORMAT(Customer."Opter ID"));
+            Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblWSLbl + '\' + FORMAT(Customer."PTE Opter ID"));
         end;
         if Setup."Allow Cust. integration Delete" THEN begin
             if "PTE WHS customer Export"."Export status" = "PTE WHS customer Export"."Export status"::Deleted then begin
                 Request.Method('DELETE');
-                Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblWS + '\' + FORMAT("PTE WHS customer Export"."Opter ID"));
+                Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblWSLbl + '\' + FORMAT("PTE WHS customer Export"."Opter ID"));
             end;
         end
         ELSE begin
             if "PTE WHS customer Export"."Export status" = "PTE WHS customer Export"."Export status"::Deleted then begin
                 Request.Method('PUT');
-                Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblWS + '\' + FORMAT(Customer."Opter ID"));
+                Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblWSLbl + '\' + FORMAT(Customer."PTE Opter ID"));
             end;
         end;
 
@@ -915,7 +916,10 @@ codeunit 62004 "PTE WSHelper Mgt"
         if Success then begin
             if not Response.IsSuccessStatusCode() then
                 Success := false;
-            "PTE WHS customer Export"."Response Message" := Response.ReasonPhrase();
+            if StrLen(Response.ReasonPhrase) < 250 THEN
+                "PTE WHS customer Export"."Response Message" := CopyStr(Response.ReasonPhrase(), 1, STRLEN(Response.ReasonPhrase()))
+            else
+                "PTE WHS customer Export"."Response Message" := CopyStr(Response.ReasonPhrase(), 1, 250);
 
             if Success then begin
                 "PTE WHS customer Export"."Export OK" := true;
@@ -929,7 +933,7 @@ codeunit 62004 "PTE WSHelper Mgt"
                     if CustJsonObject.ReadFrom(ResponseJsonString) then begin
                         //id
                         CustJsonObject.get('id', CustResponseJsonToken);
-                        Customer."Opter ID" := CustResponseJsonToken.AsValue.AsInteger();
+                        Customer."PTE Opter ID" := CustResponseJsonToken.AsValue().AsInteger();
                         Customer.Modify(false);
                     end;
                     if Setup.Test then begin
@@ -961,7 +965,7 @@ codeunit 62004 "PTE WSHelper Mgt"
             end;
         end;
 
-        "PTE WHS customer Export".modify;
+        "PTE WHS customer Export".modify();
         if not Success then begin
             LastErrorMsg := Response.ReasonPhrase();
             "PTE WHS customer Export"."Export OK" := false;
@@ -974,19 +978,20 @@ codeunit 62004 "PTE WSHelper Mgt"
     internal procedure SendCustomersWS_xml(var Customer: Record Customer; var "PTE WHS customer Export": Record "PTE WSH Customer Export") Result: Boolean
     var
         Setup: Record "PTE WSHelper Setup";
+        TempXMLBuffer: Record "XML Buffer" temporary;
+        TempBlob: Codeunit "Temp Blob";
+        WSHelperCustomer: XmlPort "PTE WSHelper Customer WS";
         Client: HttpClient;
         RequestHeaders: HttpHeaders;
         Request: HttpRequestMessage;
         ContentHeaders: HttpHeaders;
         Content: HttpContent;
         Response: HttpResponseMessage;
-        TempBlob: Codeunit "Temp Blob";
         InStr: InStream;
         Success: Boolean;
         Test: Text;
         OutStr: OutStream;
-        WSHelperCustomer: XmlPort "PTE WSHelper Customer WS";
-        TempXMLBuffer: Record "XML Buffer" temporary;
+
     begin
         Setup.Get();
         TempBlob.CreateOutStream(OutStr);
@@ -1022,16 +1027,16 @@ codeunit 62004 "PTE WSHelper Mgt"
         ContentHeaders.Add('Content-Type', 'application/xml;charset=UTF-8');
         if "PTE WHS customer Export"."Export status" = "PTE WHS customer Export"."Export status"::New then begin
             Request.Method('POST');
-            Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblWS);
+            Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblWSLbl);
         end;
         if "PTE WHS customer Export"."Export status" = "PTE WHS customer Export"."Export status"::Modified then begin
             Request.Method('PUT');
-            Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblWS + '\' + FORMAT(Customer."Opter ID"));
+            Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblWSLbl + '\' + FORMAT(Customer."PTE Opter ID"));
         end;
 
         if "PTE WHS customer Export"."Export status" = "PTE WHS customer Export"."Export status"::Deleted then begin
             Request.Method('DELETE');
-            Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblWS + '\' + FORMAT("PTE WHS customer Export"."Opter ID"));
+            Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblWSLbl + '\' + FORMAT("PTE WHS customer Export"."Opter ID"));
         end;
         Request.Content(Content);
         Request.GetHeaders(RequestHeaders);
@@ -1041,7 +1046,10 @@ codeunit 62004 "PTE WSHelper Mgt"
         if Success then begin
             if not Response.IsSuccessStatusCode() then
                 Success := false;
-            "PTE WHS customer Export"."Response Message" := Response.ReasonPhrase();
+            if StrLen(Response.ReasonPhrase) < 250 THEN
+                "PTE WHS customer Export"."Response Message" := CopyStr(Response.ReasonPhrase(), 1, StrLen(Response.ReasonPhrase()))
+            else
+                "PTE WHS customer Export"."Response Message" := CopyStr(Response.ReasonPhrase(), 1, 250);
 
             if Success then begin
                 "PTE WHS customer Export"."Export OK" := true;
@@ -1064,16 +1072,16 @@ codeunit 62004 "PTE WSHelper Mgt"
                 TempXMLBuffer.Reset();
                 if NOT TempXMLBuffer.IsEmpty then begin
                     if "PTE WHS customer Export"."Export status" = "PTE WHS customer Export"."Export status"::New then begin
-                        if TempXMLBuffer.findset then
+                        if TempXMLBuffer.findset() then
                             repeat
                                 case TempXMLBuffer.Path of
                                     'Id':
                                         begin
-                                            Customer."Opter ID" := ValueAsInteger(TempXMLBuffer.Value);
+                                            Customer."PTE Opter ID" := ValueAsInteger(TempXMLBuffer.Value);
                                         end;
                                 end;
 
-                            until TempxmlBuffer.next = 0;
+                            until TempxmlBuffer.next() = 0;
                         Customer.modify(false);
                     end;
                     if "PTE WHS customer Export"."Export status" = "PTE WHS customer Export"."Export status"::Modified then begin
@@ -1085,7 +1093,7 @@ codeunit 62004 "PTE WSHelper Mgt"
             end;
         end;
 
-        "PTE WHS customer Export".modify;
+        "PTE WHS customer Export".modify();
         if not Success then begin
             LastErrorMsg := Response.ReasonPhrase();
             "PTE WHS customer Export"."Export OK" := false;
@@ -1099,6 +1107,7 @@ codeunit 62004 "PTE WSHelper Mgt"
     var
         Setup: Record "PTE WSHelper Setup";
         TempBlob: Codeunit "Temp Blob";
+        WSHelperCustomer: XmlPort "PTE WSHelper Customer FTP";
         Client: HttpClient;
         Content: HttpContent;
         ContentHeaders: HttpHeaders;
@@ -1107,7 +1116,7 @@ codeunit 62004 "PTE WSHelper Mgt"
         Response: HttpResponseMessage;
         OutStr: OutStream;
         InStr: InStream;
-        WSHelperCustomer: XmlPort "PTE WSHelper Customer FTP";
+
         Success: Boolean;
     begin
         TempBlob.CreateOutStream(OutStr);
@@ -1126,7 +1135,7 @@ codeunit 62004 "PTE WSHelper Mgt"
         ContentHeaders.Remove('Content-Type');
         ContentHeaders.Add('Content-Type', 'application/xml');
         Request.Method('POST');
-        Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblFTP);
+        Request.SetRequestUri(Setup."WSHelper Base URL" + CustomerEnpointLblFTPLbl);
         Request.Content(Content);
         Request.GetHeaders(RequestHeaders);
         RequestHeaders.Add('Accept', 'application/xml');
@@ -1158,15 +1167,15 @@ codeunit 62004 "PTE WSHelper Mgt"
         if "PTE WHS customer Export"."Export status" = "PTE WHS customer Export"."Export status"::New then begin
             PaymentTermsInteger := 0;
             IF (Customer."Payment Terms Code" <> '') and (PaymentTerms.get(Customer."Payment Terms Code")) then begin
-                IF PaymentTerms."Opter ID" <> 0 then
-                    PaymentTermsInteger := PaymentTerms."Opter ID"
+                IF PaymentTerms."PTE Opter ID" <> 0 then
+                    PaymentTermsInteger := PaymentTerms."PTE Opter ID"
                 else
                     PaymentTermsInteger := 0;
             end;
 
             Clear(JsonObject);
             Clear(CustObject);
-            CustObject.Add('id', Customer."Opter ID");
+            CustObject.Add('id', Customer."PTE Opter ID");
             CustObject.Add('currencyId', 0);
             CustObject.Add('customerCategoryId', 0);
             CustObject.Add('regionId', 0);
@@ -1268,7 +1277,7 @@ codeunit 62004 "PTE WSHelper Mgt"
             Clear(JsonObject);
             Clear(CustObject);
 
-            CustObject.Add('id', Customer."Opter ID");
+            CustObject.Add('id', Customer."PTE Opter ID");
             if "PTE WHS customer Export".currencyId <> 0 then
                 CustObject.Add('currencyId', 0);
             if "PTE WHS customer Export".customerCategoryId <> 0 then
@@ -1417,7 +1426,7 @@ codeunit 62004 "PTE WSHelper Mgt"
         if "PTE WHS customer Export"."Export status" = "PTE WHS customer Export"."Export status"::Deleted then begin
             Clear(JsonObject);
             Clear(CustObject);
-            CustObject.Add('id', Customer."Opter ID");
+            CustObject.Add('id', Customer."PTE Opter ID");
             CustObject.Add('active', false);
 
             JsonObject.Add('', CustObject);
@@ -1474,7 +1483,7 @@ codeunit 62004 "PTE WSHelper Mgt"
         SalesOrderEndpointLbl: Label '/salesorder', Locked = true;
         PurchaseOrderListEnpointLbl: Label '/purchaseorderlist', Locked = true;
         PurchaseOrderEnpointLbl: Label '/purchaseorder', Locked = true;
-        CustomerEnpointLblFTP: Label '/customer', Locked = true;
-        CustomerEnpointLblWS: Label '/Customers', Locked = true;
+        CustomerEnpointLblFTPLbl: Label '/customer', Locked = true;
+        CustomerEnpointLblWSLbl: Label '/Customers', Locked = true;
     #endregion
 }

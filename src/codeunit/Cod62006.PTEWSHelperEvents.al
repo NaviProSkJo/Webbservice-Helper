@@ -16,24 +16,24 @@ codeunit 62006 "PTE WSHelper Events"
     begin
         if Rec.IsTemporary() then
             exit;
-        if not Rec."Opter Customer" then
+        if not Rec."PTE Opter Customer" then
             exit;
         if runtrigger = false then
             exit;
-        Setup.get;
+        Setup.get();
         //Cust Credit limit changed and Opter true OR Opter Set from fakse to True
         //if ((rec."Credit Limit (LCY)" = xrec."Credit Limit (LCY)") and (rec."Opter Customer" = true)) OR ((rec."Opter Customer" <> Xrec."Opter Customer") and (rec."Opter Customer" = true)) then
         //    exit;
         //INSERT
 
-        if rec."Opter ID" = 0 then begin
+        if rec."PTE Opter ID" = 0 then begin
             CustomerExport2.SetCurrentKey("Customer No.", "Export status", "Export OK");
             CustomerExport2.SetRange("Customer No.", rec."No.");
             CustomerExport2.SetRange("Export status", CustomerExport2."Export status"::New);
             CustomerExport2.Setrange("Export ok", false);
-            if NOT CustomerExport2.FindFirst then begin
+            if NOT CustomerExport2.FindFirst() then begin
                 //NEW POST
-                CustomerExport.Init;
+                CustomerExport.Init();
                 CustomerExport."Entry No." := 0;
                 CustomerExport."Export Created Datetime" := CurrentDateTime;
                 CustomerExport."Export status" := CustomerExport."Export status"::New;
@@ -54,9 +54,9 @@ codeunit 62006 "PTE WSHelper Events"
             CustomerExport2.SetRange("Customer No.", rec."No.");
             CustomerExport2.SetRange("Export status", CustomerExport2."Export status"::Modified);
             CustomerExport2.Setrange("Export ok", false);
-            if NOT CustomerExport2.FindFirst then begin
+            if NOT CustomerExport2.FindFirst() then begin
                 //NEW POST
-                CustomerExport.Init;
+                CustomerExport.Init();
                 CustomerExport."Entry No." := 0;
                 CustomerExport."Export Created Datetime" := CurrentDateTime;
                 CustomerExport."Export status" := CustomerExport."Export status"::Modified;
@@ -64,8 +64,8 @@ codeunit 62006 "PTE WSHelper Events"
                 CustomerExport."Customer Name" := Rec.Name;
                 IF (rec."Payment Terms Code" <> xrec."Payment Terms Code") and (rec."Payment Terms Code" <> '') then begin
                     IF PaymentTerms.get(rec."Payment Terms Code") then begin
-                        IF PaymentTerms."Opter ID" <> 0 then
-                            CustomerExport.invoicePaymentConditionId := PaymentTerms."Opter ID"
+                        IF PaymentTerms."PTE Opter ID" <> 0 then
+                            CustomerExport.invoicePaymentConditionId := PaymentTerms."PTE Opter ID"
                         else
                             CustomerExport.invoicePaymentConditionId := 0;
                         MainFiedsModified := true;
@@ -157,10 +157,10 @@ codeunit 62006 "PTE WSHelper Events"
 
                 rec.CalcFields("Balance (LCY)");
                 RecCurrentKreditLimit := ROUND(rec."Credit Limit (LCY)" - rec."Balance (LCY)", 0.000001, '=');
-                IF (RecCurrentKreditLimit <> rec."Opter Credit Limit") and (RecCurrentKreditLimit > 0) then begin
+                IF (RecCurrentKreditLimit <> rec."PTE Opter Credit Limit") and (RecCurrentKreditLimit > 0) then begin
                     MainFiedsModified := true;
                     Customer2.get(rec."No.");
-                    Customer2."Opter Credit Limit" := RecCurrentKreditLimit;
+                    Customer2."PTE Opter Credit Limit" := RecCurrentKreditLimit;
                     Customer2.Modify(false);
                     CustomerExport."Opter Credit Limit" := RecCurrentKreditLimit;
                 end
@@ -170,7 +170,7 @@ codeunit 62006 "PTE WSHelper Events"
                         //Customer2.Blocked := Customer2.Blocked::Ship;
                         MainFiedsModified := true;
                         Customer2.get(rec."No.");
-                        Customer2."Opter Credit Limit" := RecCurrentKreditLimit;
+                        Customer2."PTE Opter Credit Limit" := RecCurrentKreditLimit;
                         Customer2.Modify(false);
                         CustomerExport."Opter Credit Limit" := RecCurrentKreditLimit;
                     end
@@ -204,8 +204,8 @@ codeunit 62006 "PTE WSHelper Events"
 
                 IF (rec."Payment Terms Code" <> xrec."Payment Terms Code") and (rec."Payment Terms Code" <> '') then begin
                     IF PaymentTerms.get(rec."Payment Terms Code") then begin
-                        IF PaymentTerms."Opter ID" <> 0 then
-                            CustomerExport.invoicePaymentConditionId := PaymentTerms."Opter ID"
+                        IF PaymentTerms."PTE Opter ID" <> 0 then
+                            CustomerExport.invoicePaymentConditionId := PaymentTerms."PTE Opter ID"
                         else
                             CustomerExport.invoicePaymentConditionId := 0;
                         MainFiedsModified := true;
@@ -292,10 +292,10 @@ codeunit 62006 "PTE WSHelper Events"
 
                 rec.CalcFields("Balance (LCY)");
                 RecCurrentKreditLimit := ROUND(rec."Credit Limit (LCY)" - rec."Balance (LCY)", 0.000001, '=');
-                IF (RecCurrentKreditLimit <> rec."Opter Credit Limit") and (RecCurrentKreditLimit > 0) then begin
+                IF (RecCurrentKreditLimit <> rec."PTE Opter Credit Limit") and (RecCurrentKreditLimit > 0) then begin
                     MainFiedsModified := true;
                     Customer2.get(rec."No.");
-                    Customer2."Opter Credit Limit" := RecCurrentKreditLimit;
+                    Customer2."PTE Opter Credit Limit" := RecCurrentKreditLimit;
                     Customer2.Modify(false);
                     CustomerExport2."Opter Credit Limit" := RecCurrentKreditLimit;
                 end
@@ -305,7 +305,7 @@ codeunit 62006 "PTE WSHelper Events"
                         //Customer2.Blocked := Customer2.Blocked::Ship;
                         Customer2.get(rec."No.");
                         MainFiedsModified := true;
-                        Customer2."Opter Credit Limit" := RecCurrentKreditLimit;
+                        Customer2."PTE Opter Credit Limit" := RecCurrentKreditLimit;
                         Customer2.Modify(false);
                         CustomerExport2."Opter Credit Limit" := RecCurrentKreditLimit;
                     end
@@ -344,25 +344,25 @@ codeunit 62006 "PTE WSHelper Events"
     begin
         if Rec.IsTemporary() then
             exit;
-        if not Rec."Opter Customer" then
+        if not Rec."PTE Opter Customer" then
             exit;
-        if rec."Opter ID" = 0 then
+        if rec."PTE Opter ID" = 0 then
             exit;
-        Setup.get;
+        Setup.get();
         //if NOT Setup."Allow Cust. integration Delete" then
         //    exit;
         CustomerExport2.SetCurrentKey("Customer No.", "Export status", "Export OK");
         CustomerExport2.SetRange("Customer No.", rec."No.");
         CustomerExport2.SetRange("Export status", CustomerExport2."Export status"::Deleted);
         CustomerExport2.Setrange("Export ok", false);
-        if NOT CustomerExport2.FindFirst then begin
+        if NOT CustomerExport2.FindFirst() then begin
             //NEW POST
-            CustomerExport.Init;
+            CustomerExport.Init();
             CustomerExport."Entry No." := 0;
             CustomerExport."Export Created Datetime" := CurrentDateTime;
             CustomerExport."Export status" := CustomerExport."Export status"::deleted;
             CustomerExport."Customer No." := rec."No.";
-            CustomerExport."Opter ID" := rec."Opter ID";
+            CustomerExport."Opter ID" := rec."PTE Opter ID";
             CustomerExport."Customer Name" := Rec.Name;
             CustomerExport.Insert(false);
         end

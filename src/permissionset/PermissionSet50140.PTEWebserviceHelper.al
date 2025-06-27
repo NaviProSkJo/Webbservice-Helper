@@ -1,6 +1,6 @@
-permissionset 62000 "Webservice Helper"
+permissionset 62000 "PTE Webs. Helper"
 {
-    Caption = 'Trexium', Locked = true;
+    Caption = 'Webservice Helper', Locked = true;
     Assignable = true;
     Permissions = tabledata "PTE WSHelper Setup" = RIMD,
         table "PTE WSHelper Setup" = X,

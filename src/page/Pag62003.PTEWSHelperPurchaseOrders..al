@@ -14,37 +14,47 @@ page 62003 "PTE WSHelper Purch. Orders"
             {
                 field(Id; Rec.Id)
                 {
+                    ApplicationArea = all;
                 }
 
                 field("Order Number"; Rec."Order Number")
                 {
+                    ApplicationArea = all;
                 }
 
                 field("Goods Label"; Rec."Goods Label")
                 {
+                    ApplicationArea = all;
                 }
                 field(Currency; Rec.Currency)
                 {
+                    ApplicationArea = all;
                 }
 
                 field("Order Attester"; Rec."Order Attester")
                 {
+                    ApplicationArea = all;
                 }
                 field(Administrator; Rec.Administrator)
                 {
+                    ApplicationArea = all;
                 }
                 field("Administrator Login"; Rec."Administrator Login")
                 {
+                    ApplicationArea = all;
                 }
                 field("Administrator Export Id"; Rec."Administrator Export Id")
                 {
+                    ApplicationArea = all;
                 }
 
                 field("Company Name"; Rec."Company Name")
                 {
+                    ApplicationArea = all;
                 }
                 field("Company Registration No."; Rec."Company Registration No.")
                 {
+                    ApplicationArea = all;
                 }
             }
         }
@@ -55,7 +65,7 @@ page 62003 "PTE WSHelper Purch. Orders"
         {
             action(Order)
             {
-                ApplicationArea = Basic, Suite;
+                ApplicationArea = all; // Changed from Basic, Suite
                 Caption = 'Order';
                 Enabled = true;
                 Image = Order;
@@ -65,10 +75,9 @@ page 62003 "PTE WSHelper Purch. Orders"
                 trigger OnAction()
                 var
                     PurchHeader: record "Purchase Header";
-                    PurchOrder: page "Purchase Order";
                 begin
                     PurchHeader.SetRange("Document Type", PurchHeader."Document Type"::Order);
-                    IF PurchHeader.FindSet then begin
+                    IF PurchHeader.FindSet() then begin
                         Page.run(Page::"Sales Order", PurchHeader);
                     end;
                 end;

@@ -5,11 +5,11 @@ Codeunit 62003 "PTE WSHelper Cust. Job WS Json"
     trigger OnRun()
     var
         Customer: Record Customer;
-        WSHelperMgt: Codeunit "PTE WSHelper Mgt";
-        LastRowVersion: BigInteger;
         CustomerExport: record "PTE WSH Customer Export";
         CustomerExport2: record "PTE WSH Customer Export";
         Customer2: Record Customer;
+        WSHelperMgt: Codeunit "PTE WSHelper Mgt";
+        LastRowVersion: BigInteger;
         Skiprecord: boolean;
     begin
 
@@ -17,7 +17,7 @@ Codeunit 62003 "PTE WSHelper Cust. Job WS Json"
         //LastRowVersion := LastUsedRowVersion();
         //Customer.SetRange(SystemRowVersion, Setup."SyncedRowVersion Cust. WS", LastRowVersion);
         CustomerExport.Setrange("Export OK", False);
-        IF CustomerExport.FindSet then
+        IF CustomerExport.FindSet() then
             repeat
                 Skiprecord := false;
                 IF CustomerExport."Export status" <> CustomerExport."Export status"::Deleted then
@@ -28,8 +28,8 @@ Codeunit 62003 "PTE WSHelper Cust. Job WS Json"
                 end;
                 IF Not Skiprecord then begin
                     if not WSHelperMgt.SendCustomersWS_json(Customer2, CustomerExport) then;
-                    CustomerExport.modify;
+                    CustomerExport.modify();
                 end;
-            until CustomerExport.next = 0;
+            until CustomerExport.next() = 0;
     end;
 }

@@ -21,7 +21,7 @@
         "al.incognito": true,
         "al.browser": "Chrome",
         "al.enableExternalRulesets": true,
-        "al.publisher": "Tietoevry",
+        "al.publisher": "Evidi",
         "al.compilationOptions": {
             "maxDegreeOfParallelism": 2,
             "parallel": true
@@ -30,7 +30,7 @@
         "al.codeAnalyzers": [
             "${AppSourceCop}","${CodeCop}"
         ],
-        "al.ruleSetPath": ".\\Tietoevry.ruleset.json",
+        "al.ruleSetPath": ".\\Evidi.ruleset.json",
         "al-test-runner.sendDebugTelemetry": false
     }
 }

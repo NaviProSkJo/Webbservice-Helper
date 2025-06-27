@@ -4,7 +4,7 @@ pageextension 62001 "PTE Sales Journal" extends "Sales Journal"
     {
         addlast(processing)
         {
-            action("ImportLines Opter")
+            action("PTE ImportLines Opter")
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Import XML';
@@ -16,17 +16,17 @@ pageextension 62001 "PTE Sales Journal" extends "Sales Journal"
 
                 trigger OnAction();
                 var
-                    ImportCsv_XML: Codeunit PTEWSHImport_Csv_XML;
                     GenJournalTemplate: record "Gen. Journal Template";
+                    ImportCsv_XML: Codeunit PTEWSHImport_Csv_XML;
                 begin
                     GenJournalTemplate.Setrange(Type, GenJournalTemplate.Type::Sales);
-                    IF GenJournalTemplate.FINDFIRST THEN
-                        ImportCsv_XML.ImportSalesJournal_XML(GenJournalTemplate.Name, GetCurrentJnlBatchName);
+                    IF GenJournalTemplate.FINDFIRST() THEN
+                        ImportCsv_XML.ImportSalesJournal_XML(GenJournalTemplate.Name, GetCurrentJnlBatchName());
                     page.Run(Page::"PTE Sales Journal Import");
-                    CurrPage.update;
+                    CurrPage.update();
                 end;
             }
-            action("ImportedLines Opter")
+            action("PTE ImportedLines Opter ()")
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Import Lines';
@@ -38,7 +38,7 @@ pageextension 62001 "PTE Sales Journal" extends "Sales Journal"
                 trigger OnAction();
                 begin
                     page.Run(Page::"PTE Sales Journal Import");
-                    CurrPage.update;
+                    CurrPage.update();
                 end;
             }
         }

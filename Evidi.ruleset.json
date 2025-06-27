@@ -31,6 +31,46 @@
             "id": "AA0225",
             "action": "Hidden",
             "justification": "Not all fields on a page needs to have a caption. Will be inherited from table in most cases"
+        },
+        {
+            "id": "AA0005",
+            "action": "Hidden",
+            "justification": "Dont Like rule about begin end for single statements"
+        },
+        {
+            "id": "AA0137",
+            "action": "Hidden",
+            "justification": "This Extention is a collection of code and all variables is not used due to that they are Commented Away"
+        },
+         {
+            "id": "AA0228",
+            "action": "Hidden",
+            "justification": "This Extention is a collection of code and all Functions is not used due to that they are Commented Away"
+        },
+        {
+            "id": "AA0217",
+            "action": "Hidden",
+            "justification": "Dont like this rule for this repository"
+        },
+        {
+            "id": "AA0139",
+            "action": "Hidden",
+            "justification": "Dont like this rule for this repository"
+        },
+        {
+            "id": "AA0205",
+            "action": "Hidden",
+            "justification": "Runtime 8.0"
+        },
+        {
+            "id": "AA0206",
+            "action": "Hidden",
+            "justification": "Dont like this rule for this repository"
+        },
+        {
+            "id": "AA0214",
+            "action": "Hidden",
+            "justification": "Dont like this rule cause sometimes you want to trigger an event from onmodify without changing the record"
         }
     ]
 }
