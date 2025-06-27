@@ -18,11 +18,11 @@ codeunit 62000 "PTE WSHelper Dist. Mgt"
     internal procedure Transfer(DestFileName: Text; var Source: InStream) Success: Boolean
     var
         Setup: Record "PTE WSHelper Setup";
+        Base64Convert: Codeunit "Base64 Convert";
         Client: HttpClient;
         Content: HttpContent;
         Headers: HttpHeaders;
         Response: HttpResponseMessage;
-        Base64Convert: Codeunit "Base64 Convert";
         JsonBody: text;
     begin
         Setup.Get();

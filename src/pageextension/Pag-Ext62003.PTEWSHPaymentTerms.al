@@ -5,7 +5,7 @@ pageextension 62003 "PTE WSH Payment Terms" extends "Payment Terms"
         addafter(Description)
         {
 
-            field("Opter ID"; rec."Opter ID")
+            field("PTE Opter ID"; rec."PTE Opter ID")
             {
                 ApplicationArea = All;
                 Editable = true;

@@ -13,6 +13,7 @@ codeunit 62011 "PTEWSHImport_Csv_XML"
         CSVBuffer: Record "CSV Buffer";
         SalesJournal: record "Gen. Journal Line";
         SalesJournal2: record "Gen. Journal Line";
+        Setup: record "PTE WSHelper Setup";
         Tempblob: Codeunit "Temp Blob";
         ImportedInStream: InStream;
         filename: text;
@@ -21,13 +22,13 @@ codeunit 62011 "PTEWSHImport_Csv_XML"
         Window: Dialog;
         counter: Integer;
         TotalLines: Integer;
-        Text000: Label 'TotalLines    #1##########\';
-        Text001: Label 'Processed Lines    #2##########\';
-        Setup: record "PTE WSHelper Setup";
+        // %1 = Total number of lines to process
+        Text000Lbl: Label 'TotalLines    #1##########\', comment = '%1 = Total number of lines to process';
+        Text001Lbl: Label 'Processed Lines    #2##########\', comment = '%2 = Total number of lines processed';
     begin
         Counter := 0;
         TotalLines := 0;
-        Setup.get;
+        Setup.get();
         SalesJournal.SetRange("Journal Template Name", SalesJournalTemplateName);
         SalesJournal.Setrange("Journal Batch Name", SalesJournalBatchName);
         if SalesJournal.FindLast() then
@@ -44,12 +45,12 @@ codeunit 62011 "PTEWSHImport_Csv_XML"
         CSVBuffer.DeleteAll();
         CSVBuffer.LoadDataFromStream(ImportedInStream, ';');
         IF TotalLines = 0 then begin
-            IF CSVBuffer.FINDLAST then
+            IF CSVBuffer.FINDLAST() then
                 TotalLines := CSVBuffer."Line No.";
         end;
         Window.OPEN(
-                  Text000 +
-                  Text001);
+                  Text000Lbl +
+                  Text001Lbl);
 
         Window.Update(1, TotalLines);
         if CSVBuffer.FindSet() then
@@ -171,6 +172,7 @@ codeunit 62011 "PTEWSHImport_Csv_XML"
         TempXMLBuffer: Record "XML Buffer" temporary;
         SalesJournal: record "PTE Sales Journal Buffer";
         SalesJournal2: record "PTE Sales Journal Buffer";
+        Setup: record "PTE WSHelper Setup";
         Tempblob: Codeunit "Temp Blob";
         ImportedInStream: InStream;
         filename: text;
@@ -179,16 +181,15 @@ codeunit 62011 "PTEWSHImport_Csv_XML"
         Window: Dialog;
         counter: Integer;
         TotalLines: Integer;
-        Text000: Label 'TotalLines    #1##########\';
-        Text001: Label 'Processed Lines    #2##########\';
-        Setup: record "PTE WSHelper Setup";
+        Text000Lbl: Label 'TotalLines    #1##########\', comment = '%1 = Total number of lines to process';
+        Text001Lbl: Label 'Processed Lines    #2##########\', comment = '%2 = Total number of lines processed';
         TempText: Text;
     begin
         IF (SalesJournalTemplateName = '') or (SalesJournalBatchName = '') then
             exit;
         Counter := 0;
         TotalLines := 0;
-        Setup.get;
+        Setup.get();
         SalesJournal.SetRange("JournalTemplateName", SalesJournalTemplateName);
         SalesJournal.Setrange("JournalBatchName", SalesJournalBatchName);
         if SalesJournal.FindLast() then
@@ -210,22 +211,22 @@ codeunit 62011 "PTEWSHImport_Csv_XML"
 
         IF TotalLines = 0 then begin
             TempXMLBuffer.SetRange(Path, '/Rows/row/PostingDate');
-            IF TempXMLBuffer.FINDLAST then
+            IF TempXMLBuffer.FINDLAST() then
                 TotalLines := Round(TempXMLBuffer.Count, 1);
         end;
         TempXMLBuffer.SetRange(Path);
         Window.OPEN(
-                  Text000 +
-                  Text001);
+                  Text000Lbl +
+                  Text001Lbl);
 
         Window.Update(1, TotalLines);
-        IF TempXMLBuffer.findset then
+        IF TempXMLBuffer.findset() then
             repeat
                 case TempXMLBuffer.Path of
 
                     '/rows/row/PostingDate':
                         begin
-                            SalesJournal.init;
+                            SalesJournal.init();
                             SalesJournal."Posting Date" := GetDateValue(TempXMLBuffer, '/rows/row/PostingDate');
                             LineNoCounter += 10000;
                             SalesJournal.LineNo := LineNoCounter;
@@ -314,10 +315,10 @@ codeunit 62011 "PTEWSHImport_Csv_XML"
                         begin
                             Counter += 1;
                             Window.UPDATE(2, counter);
-                            SalesJournal.insert;
+                            SalesJournal.insert();
                         end;
                 end;
-            Until TempXMLBuffer.next = 0;
+            Until TempXMLBuffer.next() = 0;
 
         Message(StrSubstNo('%1 Lines imported', Counter));
         Window.CLOSE()
@@ -352,6 +353,7 @@ codeunit 62011 "PTEWSHImport_Csv_XML"
         CSVBuffer: Record "CSV Buffer";
         PurchJournal: record "Gen. Journal Line";
         PurchJournal2: record "Gen. Journal Line";
+        Setup: record "PTE WSHelper Setup";
         Tempblob: Codeunit "Temp Blob";
         ImportedInStream: InStream;
         filename: text;
@@ -360,13 +362,12 @@ codeunit 62011 "PTEWSHImport_Csv_XML"
         Window: Dialog;
         counter: Integer;
         TotalLines: Integer;
-        Text000: Label 'TotalLines    #1##########\';
-        Text001: Label 'Processed Lines    #2##########\';
-        Setup: record "PTE WSHelper Setup";
+        Text000Lbl: Label 'TotalLines    #1##########\', comment = '%1 = Total number of lines to process';
+        Text001Lbl: Label 'Processed Lines    #2##########\', Comment = '%2 = Total number of lines processed';
     begin
         Counter := 0;
         TotalLines := 0;
-        Setup.get;
+        Setup.get();
         PurchJournal.SetRange("Journal Template Name", PurchJournalTemplateName);
         PurchJournal.Setrange("Journal Batch Name", PurchJournalBatchName);
         if PurchJournal.FindLast() then
@@ -383,12 +384,12 @@ codeunit 62011 "PTEWSHImport_Csv_XML"
         CSVBuffer.DeleteAll();
         CSVBuffer.LoadDataFromStream(ImportedInStream, ';');
         IF TotalLines = 0 then begin
-            IF CSVBuffer.FINDLAST then
+            IF CSVBuffer.FINDLAST() then
                 TotalLines := CSVBuffer."Line No.";
         end;
         Window.OPEN(
-                  Text000 +
-                  Text001);
+                  Text000Lbl +
+                  Text001Lbl);
 
         Window.Update(1, TotalLines);
         if CSVBuffer.FindSet() then
@@ -510,6 +511,8 @@ codeunit 62011 "PTEWSHImport_Csv_XML"
         TempXMLBuffer: Record "XML Buffer" temporary;
         PurchJournal: record "PTE Purch Journal Buffer";
         PurchJournal2: record "PTE Purch Journal Buffer";
+        Setup: record "PTE WSHelper Setup";
+
         Tempblob: Codeunit "Temp Blob";
         ImportedInStream: InStream;
         filename: text;
@@ -518,16 +521,15 @@ codeunit 62011 "PTEWSHImport_Csv_XML"
         Window: Dialog;
         counter: Integer;
         TotalLines: Integer;
-        Text000: Label 'TotalLines    #1##########\';
-        Text001: Label 'Processed Lines    #2##########\';
-        Setup: record "PTE WSHelper Setup";
+        Text000Lbl: Label 'TotalLines    #1##########\', Comment = '%1 = Total number of lines to process';
+        Text001Lbl: Label 'Processed Lines    #2##########\', Comment = '%2 = Total number of lines processed';
         TempText: Text;
     begin
         IF (PurchJournalTemplateName = '') or (PurchJournalBatchName = '') then
             exit;
         Counter := 0;
         TotalLines := 0;
-        Setup.get;
+        Setup.get();
         PurchJournal.SetRange(JournalTemplateName, PurchJournalTemplateName);
         PurchJournal.Setrange(JournalBatchName, PurchJournalBatchName);
         if PurchJournal.FindLast() then
@@ -551,22 +553,22 @@ codeunit 62011 "PTEWSHImport_Csv_XML"
             exit;
         IF TotalLines = 0 then begin
             TempXMLBuffer.SetRange(Path, '/Rows/row/PostingDate');
-            IF TempXMLBuffer.FINDLAST then
+            IF TempXMLBuffer.FINDLAST() then
                 TotalLines := ROUND(TempXMLBuffer.Count, 1);
         end;
         TempXMLBuffer.SetRange(Path);
         Window.OPEN(
-                  Text000 +
-                  Text001);
+                  Text000Lbl +
+                  Text001Lbl);
 
         Window.Update(1, TotalLines);
-        IF TempXMLBuffer.findset then
+        IF TempXMLBuffer.findset() then
             repeat
                 case TempXMLBuffer.Path of
 
                     '/SupplierBills/Rows/row/PostingDate':
                         begin
-                            PurchJournal.init;
+                            PurchJournal.init();
                             PurchJournal."Posting Date" := GetDateValue(TempXMLBuffer, '/SupplierBills/Rows/row/PostingDate');
                             LineNoCounter += 10000;
                             PurchJournal.Validate(JournalTemplateName, PurchJournalTemplateName);
@@ -654,13 +656,13 @@ codeunit 62011 "PTEWSHImport_Csv_XML"
                         begin
                             Counter += 1;
                             Window.UPDATE(2, counter);
-                            PurchJournal.insert;
+                            PurchJournal.insert();
                         end;
 
 
 
                 end;
-            Until TempXMLBuffer.next = 0;
+            Until TempXMLBuffer.next() = 0;
 
         Message(StrSubstNo('%1 Lines imported', Counter));
         Window.CLOSE()

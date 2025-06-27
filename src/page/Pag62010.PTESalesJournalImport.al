@@ -222,35 +222,35 @@ page 62010 "PTE Sales Journal Import"
                     DimensionValue: record "Dimension value";
                     GLAccount: record "G/L Account";
                     Customer: record Customer;
-                    MissingValues: Boolean;
                     VatBusPostingGroup: record "VAT Business Posting Group";
                     VatProdPostingGroup: record "VAT Product Posting Group";
+                    MissingValues: Boolean;
                     VatAmount: Decimal;
                 begin
-                    Setup.get;
+                    Setup.get();
                     IF (Setup."Dimension Code Department" = '') or (Setup."Dimension Code Project" = '') then
                         exit;
                     SalesJournalBuffer.copyfilters(rec);
-                    IF SalesJournalBuffer.findset then
+                    IF SalesJournalBuffer.findset() then
                         repeat
                             MissingValues := false;
                             IF SalesJournalBuffer.DepartmentCode <> '' then begin
                                 DimensionValue.SetRange("Dimension Code", Setup."Dimension Code Department");
                                 DimensionValue.SetRange(code, SalesJournalBuffer.DepartmentCode);
-                                IF not DimensionValue.FindFirst then begin
+                                IF not DimensionValue.FindFirst() then begin
                                     SalesJournalBuffer2.get(SalesJournalBuffer.JournalTemplateName, SalesJournalBuffer.JournalBatchName, SalesJournalBuffer.LineNo);
                                     SalesJournalBuffer2.DepartmentDimensionMissing := true;
-                                    SalesJournalBuffer2.modify;
+                                    SalesJournalBuffer2.modify();
                                     MissingValues := true;
                                 end;
                             end;
                             IF SalesJournalBuffer.ProjectCode <> '' then begin
                                 DimensionValue.SetRange("Dimension Code", Setup."Dimension Code Project");
                                 DimensionValue.SetRange(code, SalesJournalBuffer.ProjectCode);
-                                IF not DimensionValue.FindFirst then begin
+                                IF not DimensionValue.FindFirst() then begin
                                     SalesJournalBuffer2.get(SalesJournalBuffer.JournalTemplateName, SalesJournalBuffer.JournalBatchName, SalesJournalBuffer.LineNo);
                                     SalesJournalBuffer2.ProjectDimensionMissing := true;
-                                    SalesJournalBuffer2.modify;
+                                    SalesJournalBuffer2.modify();
                                     MissingValues := true;
                                 end;
                             end;
@@ -259,14 +259,14 @@ page 62010 "PTE Sales Journal Import"
                                     if not GLAccount.get(SalesJournalBuffer."Account No.") then begin
                                         SalesJournalBuffer2.get(SalesJournalBuffer.JournalTemplateName, SalesJournalBuffer.JournalBatchName, SalesJournalBuffer.LineNo);
                                         SalesJournalBuffer2.AccountNoIsMissing := true;
-                                        SalesJournalBuffer2.modify;
+                                        SalesJournalBuffer2.modify();
                                         MissingValues := true;
                                     end;
                                 end
                                 else begin
                                     SalesJournalBuffer2.get(SalesJournalBuffer.JournalTemplateName, SalesJournalBuffer.JournalBatchName, SalesJournalBuffer.LineNo);
                                     SalesJournalBuffer2.AccountNoIsMissing := true;
-                                    SalesJournalBuffer2.modify;
+                                    SalesJournalBuffer2.modify();
                                     MissingValues := true;
                                 end;
                             end;
@@ -275,14 +275,14 @@ page 62010 "PTE Sales Journal Import"
                                     if not Customer.get(SalesJournalBuffer."Account No.") then begin
                                         SalesJournalBuffer2.get(SalesJournalBuffer.JournalTemplateName, SalesJournalBuffer.JournalBatchName, SalesJournalBuffer.LineNo);
                                         SalesJournalBuffer2.CustomerIsMissing := true;
-                                        SalesJournalBuffer2.modify;
+                                        SalesJournalBuffer2.modify();
                                         MissingValues := true;
                                     end;
                                 end
                                 else begin
                                     SalesJournalBuffer2.get(SalesJournalBuffer.JournalTemplateName, SalesJournalBuffer.JournalBatchName, SalesJournalBuffer.LineNo);
                                     SalesJournalBuffer2.CustomerIsMissing := true;
-                                    SalesJournalBuffer2.modify;
+                                    SalesJournalBuffer2.modify();
                                     MissingValues := true;
                                 end;
                             end;
@@ -291,7 +291,7 @@ page 62010 "PTE Sales Journal Import"
                                 if NOT VatBusPostingGroup.get(SalesJournalBuffer.VatBusPostingGroup) then begin
                                     SalesJournalBuffer2.get(SalesJournalBuffer.JournalTemplateName, SalesJournalBuffer.JournalBatchName, SalesJournalBuffer.LineNo);
                                     SalesJournalBuffer2.VATBusPostingGrpIsMissing := true;
-                                    SalesJournalBuffer2.modify;
+                                    SalesJournalBuffer2.modify();
                                     MissingValues := true;
                                 end;
                             end;
@@ -299,7 +299,7 @@ page 62010 "PTE Sales Journal Import"
                                 IF NOT VatProdPostingGroup.GET(SalesJournalBuffer.VATProdPostingGroup) then begin
                                     SalesJournalBuffer2.get(SalesJournalBuffer.JournalTemplateName, SalesJournalBuffer.JournalBatchName, SalesJournalBuffer.LineNo);
                                     SalesJournalBuffer2.VATProdPostingGrpIsMissing := true;
-                                    SalesJournalBuffer2.modify;
+                                    SalesJournalBuffer2.modify();
                                     MissingValues := true;
                                 end;
 
@@ -307,7 +307,7 @@ page 62010 "PTE Sales Journal Import"
 
                             IF not MissingValues then begin
                                 if not SalesJournal.GET(SalesJournalBuffer.JournalTemplateName, SalesJournalBuffer.JournalBatchName, SalesJournalBuffer.LineNo) then begin
-                                    SalesJournal.init;
+                                    SalesJournal.init();
                                     SalesJournal.Validate("Journal Template Name", SalesJournalBuffer.JournalTemplateName);
                                     SalesJournal.validate("Journal Batch Name", SalesJournalBuffer.JournalBatchName);
                                     SalesJournal."Line No." := SalesJournalBuffer.LineNo;
@@ -372,7 +372,7 @@ page 62010 "PTE Sales Journal Import"
                                     //<<FORIA-371
                                     if SalesJournal.Modify(true) then begin
                                         SalesJournalBuffer2.get(SalesJournalBuffer.JournalTemplateName, SalesJournalBuffer.JournalBatchName, SalesJournalBuffer.LineNo);
-                                        SalesJournalBuffer2.Delete;
+                                        SalesJournalBuffer2.Delete();
                                     end
                                     else begin
                                         SalesJournal.modify(true);
@@ -382,11 +382,11 @@ page 62010 "PTE Sales Journal Import"
                                     SalesJournal.Delete();
                                     SalesJournalBuffer2.get(SalesJournalBuffer.JournalTemplateName, SalesJournalBuffer.JournalBatchName, SalesJournalBuffer.LineNo);
                                     SalesJournalBuffer2.LineNoIsOccupied := true;
-                                    SalesJournalBuffer2.modify;
+                                    SalesJournalBuffer2.modify();
                                 end;
                             end;
-                        until SalesJournalBuffer.next = 0;
-                    CurrPage.update;
+                        until SalesJournalBuffer.next() = 0;
+                    CurrPage.update();
                 end;
             }
         }
@@ -404,22 +404,22 @@ page 62010 "PTE Sales Journal Import"
         SalesJournalBufferVAT.setrange("Account Type", SalesJournalBufferVAT."Account Type"::"G/L Account");
         SalesJournalBufferVAT.setrange("Document No.", SalesJournalBuffer."Document No.");
         SalesJournalBufferVAT.setfilter(VATProdPostingGroup, '<>%1', '');
-        IF SalesJournalBufferVAT.findset then
+        IF SalesJournalBufferVAT.findset() then
             repeat
                 If VatPostingSetup.get(SalesJournalBufferVAT.VatBusPostingGroup, SalesJournalBufferVAT.VATProdPostingGroup) and (VatPostingSetup."VAT %" = 100) then
                     VatAmount := SalesJournalBufferVAT."Amount (LCY)";
-            until (SalesJournalBufferVAT.Next = 0) OR (VatAmount <> 0);
+            until (SalesJournalBufferVAT.Next() = 0) OR (VatAmount <> 0);
 
         IF VatAmount = 0 then begin
             SalesJournalVAT.setrange("Account Type", SalesJournalVAT."Account Type"::"G/L Account");
             SalesJournalVAT.setrange("Document No.", SalesJournal."Document No.");
             SalesJournalVAT.setfilter("VAT Prod. Posting Group", '<>%1', '');
             SalesJournalVAT.SetRange("Gen. Posting Type", SalesJournalVAT."Gen. Posting Type"::Sale);
-            IF SalesJournalVAT.findset then
+            IF SalesJournalVAT.findset() then
                 repeat
                     If VatPostingSetup.get(SalesJournalVAT."VAT Bus. Posting Group", SalesJournalVAT."VAT Prod. Posting Group") and (VatPostingSetup."VAT %" = 100) then
                         VatAmount := SalesJournalVAT."Amount (LCY)";
-                until (SalesJournalVAT.next = 0) or (VatAmount <> 0)
+                until (SalesJournalVAT.next() = 0) or (VatAmount <> 0)
         end;
 
         exit(VatAmount);

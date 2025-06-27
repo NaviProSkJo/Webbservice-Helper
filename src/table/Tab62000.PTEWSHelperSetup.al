@@ -98,7 +98,7 @@ table 62000 "PTE WSHelper Setup"
                 if Rec.Enabled then begin
                     if Rec.Distributor then
                         WSHelperDistMgt.SetupConnection(Rec);
-                    IF confirm(CreateJobLabel, false) then begin
+                    IF confirm(CreateJobLabelLbl, false) then begin
                         WSHelperMgt.SetupConnection(Rec);
                         ScheduleJobQueueEntries();
 
@@ -149,7 +149,7 @@ table 62000 "PTE WSHelper Setup"
         field(25; Test; Boolean)
         {
             Caption = 'Test';
-            DataClassification = ToBeClassified;
+            //DataClassification = ToBeClassified;
         }
 
         field(27; "SyncedDatetime Cust. FTP"; Datetime)
@@ -209,7 +209,7 @@ table 62000 "PTE WSHelper Setup"
         BasicAuthLbl: Label 'Basic %1', Locked = true;
         UserPassLbl: Label '%1:%2', Locked = true;
         JobQEntriesCreatedMsg: Label 'Job queue entries could not be created due to the following error.\\%1', Comment = '%1 = GetLastErrorText';
-        CreateJobLabel: label 'Want to create Job queue entries for sending data to Opter?';
+        CreateJobLabelLbl: label 'Want to create Job queue entries for sending data to Opter?';
 
     procedure GetWSHelperAuthentication() Result: Text
     var

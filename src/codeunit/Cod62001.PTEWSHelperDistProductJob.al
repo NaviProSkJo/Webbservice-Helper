@@ -32,5 +32,6 @@ codeunit 62001 "PTE WSHelper Dist Product Job"
     end;
 
     var
-        JobbErr: Label 'Jobb failed with error %1';
+        JobbErr: Label 'Jobb failed with error %1', Comment = '%1 = Error message returned from WSHelperDistMgt.GetLastErrorMsg()';
+
 }

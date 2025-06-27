@@ -218,35 +218,35 @@ page 62009 "PTE Purch. Journal Import"
                     DimensionValue: record "Dimension value";
                     GLAccount: record "G/L Account";
                     Vendor: record Vendor;
-                    MissingValues: Boolean;
                     VatBusPostingGroup: record "VAT Business Posting Group";
                     VatProdPostingGroup: record "VAT Product Posting Group";
+                    MissingValues: Boolean;
                     VatAmount: Decimal;
                 begin
-                    Setup.get;
+                    Setup.get();
                     IF (Setup."Dimension Code Department" = '') or (Setup."Dimension Code Project" = '') then
                         exit;
                     PurchJournalBuffer.copyfilters(rec);
-                    IF PurchJournalBuffer.findset then
+                    IF PurchJournalBuffer.findset() then
                         repeat
                             MissingValues := false;
                             IF PurchJournalBuffer.DepartmentCode <> '' then begin
                                 DimensionValue.SetRange("Dimension Code", Setup."Dimension Code Department");
                                 DimensionValue.SetRange(code, PurchJournalBuffer.DepartmentCode);
-                                IF not DimensionValue.FindFirst then begin
+                                IF not DimensionValue.FindFirst() then begin
                                     PurchJournalBuffer2.get(PurchJournalBuffer.JournalTemplateName, PurchJournalBuffer.JournalBatchName, PurchJournalBuffer.LineNo);
                                     PurchJournalBuffer2.DepartmentDimensionMissing := true;
-                                    PurchJournalBuffer2.modify;
+                                    PurchJournalBuffer2.modify();
                                     MissingValues := true;
                                 end;
                             end;
                             IF PurchJournalBuffer.ProjectCode <> '' then begin
                                 DimensionValue.SetRange("Dimension Code", Setup."Dimension Code Project");
                                 DimensionValue.SetRange(code, PurchJournalBuffer.ProjectCode);
-                                IF not DimensionValue.FindFirst then begin
+                                IF not DimensionValue.FindFirst() then begin
                                     PurchJournalBuffer2.get(PurchJournalBuffer.JournalTemplateName, PurchJournalBuffer.JournalBatchName, PurchJournalBuffer.LineNo);
                                     PurchJournalBuffer2.ProjectDimensionMissing := true;
-                                    PurchJournalBuffer2.modify;
+                                    PurchJournalBuffer2.modify();
                                     MissingValues := true;
                                 end;
                             end;
@@ -256,14 +256,14 @@ page 62009 "PTE Purch. Journal Import"
                                     if not GLAccount.get(PurchJournalBuffer."Account No.") then begin
                                         PurchJournalBuffer2.get(PurchJournalBuffer.JournalTemplateName, PurchJournalBuffer.JournalBatchName, PurchJournalBuffer.LineNo);
                                         PurchJournalBuffer2.AccountNoIsMissing := true;
-                                        PurchJournalBuffer2.modify;
+                                        PurchJournalBuffer2.modify();
                                         MissingValues := true;
                                     end;
                                 end
                                 else begin
                                     PurchJournalBuffer2.get(PurchJournalBuffer.JournalTemplateName, PurchJournalBuffer.JournalBatchName, PurchJournalBuffer.LineNo);
                                     PurchJournalBuffer2.AccountNoIsMissing := true;
-                                    PurchJournalBuffer2.modify;
+                                    PurchJournalBuffer2.modify();
                                     MissingValues := true;
                                 end;
                             end;
@@ -273,14 +273,14 @@ page 62009 "PTE Purch. Journal Import"
                                     if not Vendor.get(PurchJournalBuffer."Account No.") then begin
                                         PurchJournalBuffer2.get(PurchJournalBuffer.JournalTemplateName, PurchJournalBuffer.JournalBatchName, PurchJournalBuffer.LineNo);
                                         PurchJournalBuffer2.VendorIsMissing := true;
-                                        PurchJournalBuffer2.modify;
+                                        PurchJournalBuffer2.modify();
                                         MissingValues := true;
                                     end;
                                 end
                                 else begin
                                     PurchJournalBuffer2.get(PurchJournalBuffer.JournalTemplateName, PurchJournalBuffer.JournalBatchName, PurchJournalBuffer.LineNo);
                                     PurchJournalBuffer2.VendorIsMissing := true;
-                                    PurchJournalBuffer2.modify;
+                                    PurchJournalBuffer2.modify();
                                     MissingValues := true;
                                 end;
                             end;
@@ -289,7 +289,7 @@ page 62009 "PTE Purch. Journal Import"
                                 if NOT VatBusPostingGroup.get(PurchJournalBuffer.VatBusPostingGroup) then begin
                                     PurchJournalBuffer2.get(PurchJournalBuffer.JournalTemplateName, PurchJournalBuffer.JournalBatchName, PurchJournalBuffer.LineNo);
                                     PurchJournalBuffer2.VATBusPostingGrpIsMissing := true;
-                                    PurchJournalBuffer2.modify;
+                                    PurchJournalBuffer2.modify();
                                     MissingValues := true;
                                 end;
                             end;
@@ -297,18 +297,18 @@ page 62009 "PTE Purch. Journal Import"
                                 IF NOT VatProdPostingGroup.GET(PurchJournalBuffer.VATProdPostingGroup) then begin
                                     PurchJournalBuffer2.get(PurchJournalBuffer.JournalTemplateName, PurchJournalBuffer.JournalBatchName, PurchJournalBuffer.LineNo);
                                     PurchJournalBuffer2.VATProdPostingGrpIsMissing := true;
-                                    PurchJournalBuffer2.modify;
+                                    PurchJournalBuffer2.modify();
                                     MissingValues := true;
                                 end;
                             end;
 
                             IF not MissingValues then begin
                                 if not PurchaseJournal.GET(PurchJournalBuffer.JournalTemplateName, PurchJournalBuffer.JournalBatchName, PurchJournalBuffer.LineNo) then begin
-                                    PurchaseJournal.init;
+                                    PurchaseJournal.init();
                                     PurchaseJournal.Validate("Journal Template Name", PurchJournalBuffer.JournalTemplateName);
                                     PurchaseJournal.Validate("Journal Batch Name", PurchJournalBuffer.JournalBatchName);
                                     PurchaseJournal."Line No." := PurchJournalBuffer.LineNo;
-                                    PurchaseJournal.insert;
+                                    PurchaseJournal.insert();
                                     PurchaseJournal.Validate("Posting Date", PurchJournalBuffer."Posting Date");
                                     PurchaseJournal.Validate("Document Date", PurchJournalBuffer.DocumentDate);
                                     PurchaseJournal.Validate("Document Type", PurchJournalBuffer.DocumentType);
@@ -362,7 +362,7 @@ page 62009 "PTE Purch. Journal Import"
                                     //<<FORIA-371
                                     if PurchaseJournal.modify(true) then begin
                                         PurchJournalBuffer2.get(PurchJournalBuffer.JournalTemplateName, PurchJournalBuffer.JournalBatchName, PurchJournalBuffer.LineNo);
-                                        PurchJournalBuffer2.Delete;
+                                        PurchJournalBuffer2.Delete();
                                     end;
 
                                 end
@@ -370,11 +370,11 @@ page 62009 "PTE Purch. Journal Import"
                                     PurchaseJournal.delete();
                                     PurchJournalBuffer2.get(PurchJournalBuffer.JournalTemplateName, PurchJournalBuffer.JournalBatchName, PurchJournalBuffer.LineNo);
                                     PurchJournalBuffer2.LineNoIsOccupied := true;
-                                    PurchJournalBuffer2.modify;
+                                    PurchJournalBuffer2.modify();
                                 end;
                             end;
-                        until PurchJournalBuffer.next = 0;
-                    CurrPage.update;
+                        until PurchJournalBuffer.next() = 0;
+                    CurrPage.update();
                 end;
             }
 
@@ -393,22 +393,22 @@ page 62009 "PTE Purch. Journal Import"
         PurchJournalBufferVAT.setrange("Account Type", PurchJournalBufferVAT."Account Type"::"G/L Account");
         PurchJournalBufferVAT.setrange("Document No.", PurchJournalBuffer."Document No.");
         PurchJournalBufferVAT.setfilter(VATProdPostingGroup, '<>%1', '');
-        IF PurchJournalBufferVAT.findset then
+        IF PurchJournalBufferVAT.findset() then
             repeat
                 If VatPostingSetup.get(PurchJournalBufferVAT.VatBusPostingGroup, PurchJournalBufferVAT.VATProdPostingGroup) and (VatPostingSetup."VAT %" = 100) then
                     VatAmount := PurchJournalBufferVAT."Amount (LCY)";
-            until (PurchJournalBufferVAT.Next = 0) OR (VatAmount <> 0);
+            until (PurchJournalBufferVAT.Next() = 0) OR (VatAmount <> 0);
 
         IF VatAmount = 0 then begin
             PurchJournalVAT.setrange("Account Type", PurchJournalVAT."Account Type"::"G/L Account");
             PurchJournalVAT.setrange("Document No.", PurchJournal."Document No.");
             PurchJournalVAT.setfilter("VAT Prod. Posting Group", '<>%1', '');
             PurchJournalVAT.SetRange("Gen. Posting Type", PurchJournalVAT."Gen. Posting Type"::Sale);
-            IF PurchJournalVAT.findset then
+            IF PurchJournalVAT.findset() then
                 repeat
                     If VatPostingSetup.get(PurchJournalVAT."VAT Bus. Posting Group", PurchJournalVAT."VAT Prod. Posting Group") and (VatPostingSetup."VAT %" = 100) then
                         VatAmount := PurchJournalVAT."Amount (LCY)";
-                until (PurchJournalVAT.next = 0) or (VatAmount <> 0)
+                until (PurchJournalVAT.next() = 0) or (VatAmount <> 0)
         end;
 
         exit(VatAmount);

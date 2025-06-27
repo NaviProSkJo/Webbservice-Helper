@@ -133,37 +133,37 @@ table 62008 "PTE Sales Journal Buffer"
         }
         field(30; ProjectDimensionMissing; boolean)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Project Dimension is missing';
         }
         field(31; DepartmentDimensionMissing; boolean)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Department Dimension is missing';
         }
         field(32; "AccountNoIsMissing"; boolean)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Account No. is missing';
         }
         field(33; "CustomerIsMissing"; boolean)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Customer is missing';
         }
         field(34; "VATProdPostingGrpIsMissing"; boolean)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Customer is missing';
         }
         field(35; "VATBusPostingGrpIsMissing"; boolean)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Customer is missing';
         }
         field(36; "LineNoIsOccupied"; boolean)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             Caption = 'Line No Is Occupied in Journal';
         }
     }
