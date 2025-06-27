@@ -1,0 +1,39 @@
+{
+  "id": "<Insert GUID here>",
+  "name": "<Insert project name here>",
+  "publisher": "Evidi",
+  "version": "26.0.0.0",
+  "brief": "Short description of this project",
+  "description": "Long description of this project",
+  "privacyStatement": "https://www.evidi.se/",
+  "EULA": "https://www.evidi.se/",
+  "help": "https://www.evidi.se/",
+  "contextSensitiveHelpUrl": "https://www.evidi.se/",
+  "url": "https://https://www.evidi.se/",
+  "logo": "https://www.evidi.se/wp-content/uploads/2023/10/Evidi-Logo-2023.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "23.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "26.0",
+  "target": "Cloud",
+  "supportedLocales": [
+    "en-US",
+    "sv-SE"
+  ],
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}

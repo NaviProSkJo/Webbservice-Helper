@@ -1,0 +1,12 @@
+# Binary files
+.alpackages/
+/*.app
+
+# Temp files
+.alcache/
+.vscode/
+
+# Others
+~$*
+*~
+.vscode/launch.json
