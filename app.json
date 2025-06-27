@@ -1,24 +1,73 @@
 {
-  "id": "<Insert GUID here>",
-  "name": "<Insert project name here>",
+  "id": "705119A3-C41C-4AF9-B76C-F06DF6A93FE0",
+  "name": "Webservice Helper",
   "publisher": "Evidi",
-  "version": "26.0.0.0",
-  "brief": "Short description of this project",
-  "description": "Long description of this project",
-  "privacyStatement": "https://www.evidi.se/",
-  "EULA": "https://www.evidi.se/",
-  "help": "https://www.evidi.se/",
-  "contextSensitiveHelpUrl": "https://www.evidi.se/",
-  "url": "https://https://www.evidi.se/",
-  "logo": "https://www.evidi.se/wp-content/uploads/2023/10/Evidi-Logo-2023.png",
-  "dependencies": [],
+  "version": "19.0.0.105",
+  "brief": "Help Product for calling webservices" ,
+  "description": "Help Product for calling webservices",
+  "privacyStatement": "https://www.Evidi.se/",
+  "EULA": "https://www.Evidi.se/",
+  "help": "https://www.Evidi.se/",
+  "contextSensitiveHelpUrl": "https://www.Evidi.se/",
+  "url": "https://www.Evidi.se/",
+  "logo": "logo/N-Symbol.png",
+  "dependencies": [
+    {
+      "id": "1c779071-56d4-4a67-8da1-4eee3b27537e",
+      "publisher": "TietoEVRY",
+      "name": "FORIA EDI",
+      "version": "19.1.0.47"
+    },
+    {
+      "id": "76c74890-d617-4577-9ed2-d7989586147a",
+      "publisher": "TietoEVRY",
+      "name": "NAV Transportekonomi",
+      "version": "19.1.0.4"
+    },
+    {
+      "id": "a50f9a80-5a54-41f3-a584-1d8b5fda487a",
+      "publisher": "TietoEVRY",
+      "name": "NavTE Tracs Integration",
+      "version": "19.1.0.2"
+    },
+    {
+      "id": "245a1456-d8b5-49c2-a552-23edcdd1b1b2",
+      "name": "NavTE Tracs Finance",
+      "publisher": "TietoEvry",
+      "version": "19.1.0.5"
+    },
+    {
+      "id": "41c58ffc-318e-49f4-bc0c-030a7ddc4d45",
+      "name": "Evry Integration Engine BC",
+      "publisher": "Evry Sweden AB",
+      "version": "19.1.5.1"
+    },
+    {
+      "id": "c2c19f7f-8fd1-4e22-983e-59ad077ec030",
+      "name": "NavTE Supplement",
+      "publisher": "TietoEvry",
+      "version": "19.1.0.0"
+    },
+    {
+      "id": "b830ef47-c998-4e30-bb03-52be437f36f6",
+      "name": "SweBase",
+      "publisher": "SmartApps",
+      "version": "19.4.39608.0"
+    },
+    {
+      "id": "bcd6e7ff-855f-4001-8e53-eb904dfa7846",
+      "publisher": "TietoEVRY",
+      "name": "NavTE Reports",
+      "version": "19.1.0.3" 
+    }
+  ],
   "screenshots": [],
-  "platform": "23.0.0.0",
-  "application": "23.0.0.0",
+  "platform": "19.0.0.0",
+  "application": "19.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 62000,
+      "to": 62100
     }
   ],
   "resourceExposurePolicy": {
@@ -26,7 +75,7 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "26.0",
+  "runtime": "8.0",
   "target": "Cloud",
   "supportedLocales": [
     "en-US",

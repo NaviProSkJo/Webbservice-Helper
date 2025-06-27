@@ -1,0 +1,1954 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Webservice Helper">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 421491504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Journal Buffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 1622979514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 3699788827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field Account Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 2954869362 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No. is missing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field AccountNoIsMissing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 592951229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field Amount (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 1754210604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applies to Doc. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field AppliesToDocNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 4248640148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field Bank Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 1520277295 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Giro</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field BankGiro - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 567887726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field CurrencyCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 910790307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Department Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field DepartmentCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 2022971356 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Department Dimension is missing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field DepartmentDimensionMissing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 1594611733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field DocumentDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 4237283545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field DocumentType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 1402313444 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field DueDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 2881437613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field ExternalDocumentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 1070872126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field JournalBatchName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 1744706346 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Template Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field JournalTemplateName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 1165969121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field LineNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 3447587321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No Is Occupied in Journal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field LineNoIsOccupied - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 3147728291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plus Giro</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field Plusgiro - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 1946087940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field ProjectCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 3731152043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project Dimension is missing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field ProjectDimensionMissing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 1908046867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reason Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field Reason Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 1496400300 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vat Bus Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field VatBusPostingGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 1678973872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer is missing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field VATBusPostingGrpIsMissing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 3154983911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Prod Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field VATProdPostingGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 1640612363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer is missing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field VATProdPostingGrpIsMissing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 421491504 - Field 2906582326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor is missing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Purch Journal Buffer - Field VendorIsMissing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Journal Buffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 1622979514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 3699788827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field Account Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 2954869362 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No. is missing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field AccountNoIsMissing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 592951229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field Amount (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 1754210604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applies To Doc. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field AppliesToDocNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 3743966363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applies To Doc. Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field AppliesToDocType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 567887726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field CurrencyCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 2938913950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer is missing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field CustomerIsMissing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 910790307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Department Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field DepartmentCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 2022971356 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Department Dimension is missing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field DepartmentDimensionMissing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 1594611733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field DocumentDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 4237283545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field DocumentType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 4085727052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field Due Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 2881437613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field ExternalDocumentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 797710973 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GenPostingKey</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field GenPostingKey - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 1070872126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field JournalBatchName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 1744706346 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Template Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field JournalTemplateName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 1165969121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field LineNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 3447587321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No Is Occupied in Journal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field LineNoIsOccupied - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 1946087940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field ProjectCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 3731152043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project Dimension is missing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field ProjectDimensionMissing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 1908046867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reason Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field Reason Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 849583765 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Campaign Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field SalesCampaignCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 3363466535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales/Purch -person Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field SalespersPurchCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 1496400300 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vat Bus Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field VatBusPostingGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 1678973872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer is missing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field VATBusPostingGrpIsMissing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 3154983911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Prod Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field VATProdPostingGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2565684644 - Field 1640612363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer is missing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE Sales Journal Buffer - Field VATProdPostingGrpIsMissing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSH Customer Export</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 4102847412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>addressLine1Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field addressLine1Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 1888074932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>addressLine1Visit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field addressLine1Visit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 1144861541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>addressLine2Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field addressLine2Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3343603925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>addressLine2Visit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field addressLine2Visit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 865763702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>addressLine3Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field addressLine3Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3870131062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>addressLine3Visit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field addressLine3Visit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 2041787016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>bankAccountNumber</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field bankAccountNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 2787772268 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>bic</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field bic - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3640285850 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cityInvoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field cityInvoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3713860922 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cityVisit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field cityVisit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3072347570 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>companyInvoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field companyInvoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3079488562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>companyVisit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field companyVisit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3468600852 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>creditLimit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field creditLimit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3095330580 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>currencyExtraId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field currencyExtraId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 416025006 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>currencyId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field currencyId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 187582251 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>customerCategoryId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field customerCategoryId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 4209087115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>customerCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field customerCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3226897001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>customerNumber</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field customerNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 1195566352 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>dispatchInformation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field dispatchInformation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 2189066822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>driverInformation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field driverInformation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 180809250 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>emailAdress</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field emailAdress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 391732913 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>emailAdressInvoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field emailAdressInvoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 2024288272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>entreCodeVisit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field entreCodeVisit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 106964271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field Export Content - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3417455391 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Created Datetime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field Export Created Datetime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 4262517487 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Datetime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field Export Datetime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 4031281356 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export OK</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field Export OK - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 1540090860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field Export status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 1774461192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field Export Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3772809831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>fuelExtraId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field fuelExtraId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 2214516256 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>iban</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field iban - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3129096152 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field information - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3896145623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>informationInvoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field informationInvoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 899814695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>informationVisit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field informationVisit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 853985702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>invoiceFeeId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field invoiceFeeId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 1380469804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>invoiceInterestRateId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field invoiceInterestRateId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 4282346877 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>invoiceIntervalId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field invoiceIntervalId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 4227442615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>invoicePaymentConditionId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field invoicePaymentConditionId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 2401555910 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>invoiceReference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field invoiceReference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 1394306148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>latitude</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field latitude - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3757922101 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>longitude</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field longitude - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3558812865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 1500028179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>noFuelExtra</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field noFuelExtra - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 2938070336 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opter Credit Limit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field Opter Credit Limit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3486280699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opter ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field Opter ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 4134168090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>orderAllowed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field orderAllowed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 1092470260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>organizationNumber</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field organizationNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 2256894943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>phone1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field phone1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 4169984794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>phone2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field phone2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 4222025551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>regionId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field regionId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 1099903468 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Response Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field Response Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 2886440133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Response Message Blob</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field Response Message Blob - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 327507450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>stateInvoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field stateInvoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 4042610586 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>stateVisit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field stateVisit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3360678596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>streetInvoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field streetInvoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 1315147875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>streetNoInvoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field streetNoInvoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 1437026387 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>streetNoVisit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field streetNoVisit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 1192195140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>streetVisit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field streetVisit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 2440116964 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>vatNumber</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field vatNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 2157356496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>vatRateId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field vatRateId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 2861750598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field XMLBlob - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3347617185 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>zipCodeInvoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field zipCodeInvoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 36444343 - Field 3039516305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>zipCodeVisit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSH Customer Export - Field zipCodeVisit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSHelper Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - NamedType 2101097927" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Want to create Job queue entries for sending data to Opter?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - NamedType CreateJobLabel</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - NamedType 4035563047" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job queue entries could not be created due to the following error.\\%1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = GetLastErrorText</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - NamedType JobQEntriesCreatedMsg</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - NamedType 2565632078" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job queue entries for sending data to WSHelper have been created.\\Do you want to open the Job Queue Entries window?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - NamedType JobQEntriesCreatedQst</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - NamedType 3394709964" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The WSHelper Dist. service is not enabled.\\In the WSHelper Dist. Service Setup window, select the Enabled check box.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - NamedType MustBeEnabledErr</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 3609159851 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow Customer Integration Delete</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field Allow Cust. integration Delete - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 563259512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authorization Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field Authorization Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 733774100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Azure Function URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field Azure Function URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 1051316563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension Code Department</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field Dimension Code Department - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 1952370140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension Code Project</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field Dimension Code Project - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 4212713257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Distributor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field Distributor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 565348252 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Distributor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field Distributor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 2891538263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field Enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 3802851488 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FTP Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field FTP Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 1170783590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FTP Password Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field FTP Password Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 2456081832 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FTP User Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field FTP User Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 467402710 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No of Customers Exported</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field No of Customers Exported - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 2207783935 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No of Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field No of Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 4270617978 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No of Purchase Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field No of Purchase Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 2314388291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource Available Qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field Resource Available Qty. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 1672635977 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource Category Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field Resource Category Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 1641085902 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synced Datetime Customer FTP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field SyncedDatetime Cust. FTP - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 407074653 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synced RowVersion Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field SyncedRowVersion Cust. FTP  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 698524335 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synced RowVersion Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field SyncedRowVersion Cust. WS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 3732224266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field Test - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 2472911448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSHelper Base URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field WSHelper Base URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 3966437895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSHelper Password Key GUID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field WSHelper Pass. Key GUID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 1109848932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSHelper Password Key Basic</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field WSHelper Password Key Basic - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 964003368 - Field 2108300624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSHelper User Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PTE WSHelper Setup - Field WSHelper User Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1528961431 - NamedType 3029814756" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Jobb failed with error %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTE WSHelper Dist Product Job - NamedType JobbErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1401797419 - NamedType 4170455788" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must complete the fields for distributor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTE WSHelper Dist. Mgt - NamedType MissingDistrFieldsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4198329375 - NamedType 3092005910" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must complete the fields for WSHelper.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTE WSHelper Mgt - NamedType MissingWSHelperFieldsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4198329375 - NamedType 4066993794" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor %1 not found, id = %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Vendor Code, %2 = Vendor Id</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTE WSHelper Mgt - NamedType VendorNoFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 870573599 - NamedType 3627110615" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Canceled order %1 could not be deleted</source>
+          <note from="Developer" annotates="general" priority="2">%1 = ordernumber</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTE WSHelper Order - NamedType OrderCancelErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 870573599 - NamedType 3163058897" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 unsupported</source>
+          <note from="Developer" annotates="general" priority="2">%1 = fieldname</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTE WSHelper Order - NamedType OrderStatusErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 870573599 - NamedType 470408676" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serialnumbers are missing for order %1 %2, line %3.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Order No, %2 = Line No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTE WSHelper Order - NamedType SerialNoMissingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3481499766 - NamedType 3029814756" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Jobb failed with error %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTE WSHelper Order Job - NamedType JobbErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2624264441 - Method 2439741307 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TotalLines    #1##########\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportPurchJournal_CSV - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2624264441 - Method 2439741307 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processed Lines    #2##########\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportPurchJournal_CSV - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2624264441 - Method 2507025962 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TotalLines    #1##########\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportPurchJournal_XML - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2624264441 - Method 2507025962 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processed Lines    #2##########\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportPurchJournal_XML - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2624264441 - Method 2383864391 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TotalLines    #1##########\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportSalesJournal_CSV - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2624264441 - Method 2383864391 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processed Lines    #2##########\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportSalesJournal_CSV - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2624264441 - Method 2885119774 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TotalLines    #1##########\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportSalesJournal_XML - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2624264441 - Method 2885119774 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processed Lines    #2##########\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTEWSHImport_Csv_XML - Method ImportSalesJournal_XML - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Page 3339356313 - Property 3446740159" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE API - Dimensions - Property EntityCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 3339356313 - Property 631549417" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimensions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE API - Dimensions - Property EntitySetCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purch. Journal Import</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 1622979514 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Account No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 3699788827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Account Type field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control Account Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 2954869362 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the AccountNoIsMissing field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control AccountNoIsMissing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Amount field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 592951229 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Amount (LCY) field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 1754210604 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Applies to Doc. No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control AppliesToDocNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 4248640148 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bank Account No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control Bank Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 1520277295 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bank Giro field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control BankGiro - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 567887726 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Currency Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control CurrencyCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 910790307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Department Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control DepartmentCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 2022971356 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the DepartmentDimensionMissing field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control DepartmentDimensionMissing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 1594611733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document Date field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control DocumentDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 4237283545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document Type field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control DocumentType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 1402313444 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Due Date field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control DueDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 2881437613 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the External Document No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control ExternalDocumentNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 1070872126 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Journal Batch Name field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control JournalBatchName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 1744706346 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Journal Template Name field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control JournalTemplateName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 1165969121 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control LineNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 3447587321 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the LineNoIsOccupied field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control LineNoIsOccupied - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 3147728291 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Plus Giro field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control Plusgiro - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Posting Date field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 1946087940 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Project Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control ProjectCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 3731152043 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ProjectDimensionMissing field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control ProjectDimensionMissing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 1908046867 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Reason Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control Reason Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control SystemCreatedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 4000648066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control SystemCreatedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemId field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control SystemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 2453272523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control SystemModifiedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 4085837753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control SystemModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 1496400300 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Vat Bus Posting Group field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control VatBusPostingGroup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 1678973872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VATBusPostingGrpIsMissing field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control VATBusPostingGrpIsMissing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 3154983911 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VAT Prod Posting Group field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control VATProdPostingGroup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 1640612363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VATProdPostingGrpIsMissing field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control VATProdPostingGrpIsMissing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Control 2804549141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VendorIsMissing field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Control VendorNoIsMissing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509594985 - Action 734891307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Journal Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Purch. Journal Import - Action ImportJournalLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Journal Import</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 1622979514 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Account No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 3699788827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Account Type field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control Account Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 2954869362 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the AccountNoIsMissing field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control AccountNoIsMissing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Amount field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 592951229 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Amount (LCY) field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 1754210604 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Applies To Doc. No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control AppliesToDocNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 3743966363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Applies To Doc. Type field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control AppliesToDocType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 567887726 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Currency Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control CurrencyCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 3615612317 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VendorIsMissing field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control CustomerNoIsMissing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 910790307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Department Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control DepartmentCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 2022971356 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the DepartmentDimensionMissing field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control DepartmentDimensionMissing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 1594611733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document Date field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control DocumentDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 4237283545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document Type field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control DocumentType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 4085727052 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Due Date field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control Due Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 2881437613 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the External Document No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control ExternalDocumentNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 797710973 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the GenPostingKey field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control GenPostingKey - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 1070872126 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Journal Batch Name field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control JournalBatchName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 1744706346 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Journal Template Name field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control JournalTemplateName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 1165969121 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control LineNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 3447587321 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the LineNoIsOccupied field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control LineNoIsOccupied - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Posting Date field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 1946087940 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Project Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control ProjectCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 3731152043 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ProjectDimensionMissing field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control ProjectDimensionMissing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 1908046867 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Reason Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control Reason Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 849583765 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Campaign Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control SalesCampaignCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 3363466535 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales/Purch -person Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control SalespersPurchCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control SystemCreatedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 4000648066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control SystemCreatedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemId field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control SystemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 2453272523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control SystemModifiedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 4085837753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control SystemModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 1496400300 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Vat Bus Posting Group field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control VatBusPostingGroup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 1678973872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VATBusPostingGrpIsMissing field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control VATBusPostingGrpIsMissing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 3154983911 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VAT Prod Posting Group field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control VATProdPostingGroup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Control 1640612363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VATProdPostingGrpIsMissing field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Control VATProdPostingGrpIsMissing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 623558063 - Action 734891307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Journal Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE Sales Journal Import - Action ImportJournalLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSH Customer export</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 1171137197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer Name field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control Customer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 3417455391 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Export Created Datetime field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control Export Created Datetime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 4262517487 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Export Datetime field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control Export Datetime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 4031281356 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Export OK field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control Export OK - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 1540090860 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Export status field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control Export status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 1774461192 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Export Type field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control Export Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 3486280699 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Opter ID" field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control Opter ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 1099903468 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Response Message field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control Response Message - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 2886440133 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Response Message Blob field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control Response Message Blob - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control SystemCreatedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 4000648066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control SystemCreatedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemId field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control SystemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 2453272523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control SystemModifiedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Control 4085837753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Control SystemModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Action 280598192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Action View Content - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2798909847 - Action 3323051066 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Response</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSH Customer export - Action View Response - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSHelper Order Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 869581585 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bid field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Bid - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3801106754 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Calculated Cost Price field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Calculated Cost Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 461259114 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Calculated Purchase Price field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Calculated Purchase Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3702373668 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Category field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Category - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3877927551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Category Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Category Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1625167091 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Category Export Id field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Category Export Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3737244698 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Cost Price field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Cost Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2574556897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Delivered Quantity field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Delivered Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1039490998 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Discount Pct field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Discount Pct - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 633051610 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Family field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Family - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1589921353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the In Stock field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control In Stock - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1737536686 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Last Delivery Date field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Last Delivery Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2724623677 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line Id field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Line Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1075634837 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line Internal Group Id field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Line Internal Group Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1549692896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line Internal Id field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Line Internal Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1002825612 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line Internal Parent Id field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Line Internal Parent Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2991214354 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line Internal Quote Id field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Line Internal Quote Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 968228245 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Main Category field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Main Category - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 193526694 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Main Category Export Id field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Main Category Export Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3938133605 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Manufacturer Item No field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Manufacturer Item No - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3082437212 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Manufacturer Name field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Manufacturer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2070199485 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Id field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Order Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 81931415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Product Condition Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Product Condition Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 459399738 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Product Id field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Product Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2109860303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Purchase Order Item Id field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Purchase Order Item Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2877945414 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Purchase Order No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Purchase Order No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Quantity field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1497802770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Registered Purchase Price field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Registered Purchase Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3857015518 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Price Rent Excl. VAT Display field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Sales Pr.Rent Excl. VAT Displ. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2895808500 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Price Rent Incl. VAT Display field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Sales Pr.Rent Incl. VAT Displ. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1292226486 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Price Excl. VAT field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Sales Price Excl. VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2740833308 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Price Excl. VAT Display field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Sales Price Excl. VAT Display - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1872981964 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Price Incl. VAT field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Sales Price Incl. VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1072283462 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Price Incl. VAT Display field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Sales Price Incl. VAT Display - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2273362065 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Price Rent Excl. VAT field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Sales Price Rent Excl. VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3064601943 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Price Rent Incl. VAT field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Sales Price Rent Incl. VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 239947277 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Price Rent VAT field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Sales Price Rent VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3795952835 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Price Rent VAT Display field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Sales Price Rent VAT Display - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3826782026 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Price VAT field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Sales Price VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1587020832 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Price VAT Display field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Sales Price VAT Display - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1519531188 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Stock ETA field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Stock ETA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2028962895 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Supplier Export Id field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Supplier Export Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1530209548 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Supplier Item No field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Supplier Item No - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2668178317 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Supplier Name field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Supplier Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2353431643 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Supplier Price field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Supplier Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control SystemCreatedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 4000648066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control SystemCreatedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemId field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control SystemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2453272523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control SystemModifiedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 4085837753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control SystemModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2548350396 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Tax Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Tax Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3537149282 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Tax Percent field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Tax Percent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3861771076 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Price Rent Excl. VAT Display field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Total Pr.Rent Excl. VAT Displ. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2530780206 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Price Rent Incl. VAT Display field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Total Pr.Rent Incl. VAT Displ. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1907447628 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Price Excl. VAT field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Total Price Excl. VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 528516806 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Price Excl. VAT Display field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Total Price Excl. VAT Display - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3746727894 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Price Incl. VAT field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Total Price Incl. VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1502290812 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Price Incl. VAT Display field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Total Price Incl. VAT Display - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 597027367 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Price Rent Excl. VAT field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Total Price Rent Excl. VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 2308322689 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Price Rent Incl. VAT field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Total Price Rent Incl. VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3369175731 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Price Rent VAT field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Total Price Rent VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3064732637 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Price Rent VAT Display field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Total Price Rent VAT Display - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 882500112 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Price VAT field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Total Price VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 1946165530 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Price VAT Display field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control Total Price VAT Display - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1344754148 - Control 3609625700 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the UNSPSC field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Order Lines - Control UNSPSC - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 48432650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSHelper Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 48432650 - Action 3471137671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Orders - Action Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 48432650 - Action 146219450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Orders - Action Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1572493224 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSHelper Purchase Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Purch. Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1572493224 - Action 146219450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Purch. Orders - Action Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSHelper Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - NamedType 298733869" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to disable the service?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - NamedType DisableEnableQst</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - NamedType 1791671425" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must disable the service before you can make changes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - NamedType EnabledWarningTok</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - NamedType 3035575630" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 is not enabled. Are you sure you want to exit?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - NamedType EnableServiceQst</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - NamedType 3838141333" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data encryption is not activated. It is recommended that you encrypt data. \Do you want to open the Data Encryption Management window?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - NamedType EncryptionIsNotActivatedQst</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Control 550960361 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Distributor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Control Distributor_Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Control 1551961336 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Azure Service</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Control AzureService - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Control 1960663112 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authorization Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Control AuthorizationKey - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Control 4103911929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FTP Service</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Control FTP Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Control 2166234662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSHelper API</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Control WSHelperAPI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Control 1051316563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension Code Department</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Control Dimension Code Department - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Control 1952370140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension Code Project</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Control Dimension Code Project - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Control 1076580053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Password Basic</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Control WSHelper Pass Key GUID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Control 2336280382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Password GUID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Control WSHelper Password Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Action 2678035379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Action ActivityLog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Action 841712208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Encryption Management</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Action EncryptionManagement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Action 2782249122 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Action Integration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Action 638658474 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer FTP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Action CustomerFTP - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Action 2497670796 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer WS Json</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Action CustomerWSJson - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Action 144507115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer WS Json XML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Action CustomerWSxml - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Action 2653096382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Queue Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Action JobQueueEntry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Action 2967148402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run Job</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Action RunJob - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Action 3404891685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XmlPorts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Action XmlPorts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 964003368 - Action 3606140129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PTE WSHelper Setup - Action Customers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 776492527 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSHelper Customer FTP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort PTE WSHelper Customer FTP - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 859277133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSHelper Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort PTE WSHelper Customer WS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 2756334635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSHelper Dist Products</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort PTE WSHelper Dist Products - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 763135015 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSHelper Purchase Order List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort PTE WSHelper Purch.Order List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 3961956737 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WSHelper Sales Order List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort PTE WSHelper Sales Order List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3350123820 - Action 1554108239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3580867622">
+          <source>Import Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE Purchase Jnrl - Action ImportedLines Opter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3350123820 - Action 2322234520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3580867622">
+          <source>Import XML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE Purchase Jnrl - Action ImportLines Opter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3012614852 - Action 1554108239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1727838235">
+          <source>Import Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE Sales Journal - Action ImportedLines Opter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3012614852 - Action 2322234520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1727838235">
+          <source>Import XML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE Sales Journal - Action ImportLines Opter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2184389523 - Field 2938070336 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Opter Credit Limit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PTE WSH Customer - Field Opter Credit Limit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2184389523 - Field 4091443316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Opter Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PTE WSH Customer - Field Opter Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2184389523 - Field 3486280699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Opter ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PTE WSH Customer - Field Opter ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 810529198 - Field 3486280699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3197070065">
+          <source>Opter ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PTE WSH Payment Terms - Field Opter ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3265333215 - EnumValue 2703452831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bortagen</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum PTE WSH Export Status - EnumValue Deleted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3265333215 - EnumValue 541974475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ändrad</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum PTE WSH Export Status - EnumValue Modified - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3265333215 - EnumValue 4137051400 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ny</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum PTE WSH Export Status - EnumValue New - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
